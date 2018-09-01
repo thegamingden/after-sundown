@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Standardizing Nonstandard Magic - After Sundown 1e</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop RPG in a world of monsters and horror.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">var path_to_root = "../";</script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li class="affix"><a href="../introduction.html">Introduction</a></li><li class="affix"><a href="../terrible_places_and_people.html">Terrible Places and People</a></li><li><a href="../terrible_places_and_people/maya.html"><strong aria-hidden="true">1.</strong> Maya</a></li><li><a href="../terrible_places_and_people/limbo.html"><strong aria-hidden="true">2.</strong> Limbo</a></li><li><a href="../terrible_places_and_people/mictlan.html"><strong aria-hidden="true">3.</strong> Mictlan</a></li><li><a href="../terrible_places_and_people/being_in_between_worlds.html"><strong aria-hidden="true">4.</strong> Being In Between Worlds</a></li><li><a href="../terrible_places_and_people/terrible_people.html"><strong aria-hidden="true">5.</strong> Terrible People</a></li><li><a href="../running_the_game.html"><strong aria-hidden="true">6.</strong> Running The Game</a></li><li><ol class="section"><li><a href="../running_the_game/basic_dice_mechanics.html"><strong aria-hidden="true">6.1.</strong> Basic Dice Mechanics</a></li><li><a href="../running_the_game/character_generation.html"><strong aria-hidden="true">6.2.</strong> Character Generation</a></li><li><a href="../running_the_game/advancing_goals.html"><strong aria-hidden="true">6.3.</strong> Advancing Goals</a></li><li><a href="../running_the_game/jobs,_missions,_and_quests.html"><strong aria-hidden="true">6.4.</strong> Jobs, Missions, and Quests</a></li><li><a href="../running_the_game/placing_opposition.html"><strong aria-hidden="true">6.5.</strong> Placing Opposition</a></li></ol></li><li><a href="../monstrous_society.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li><a href="../monstrous_society/bands.html"><strong aria-hidden="true">7.1.</strong> Bands</a></li><li><a href="../monstrous_society/syndicates.html"><strong aria-hidden="true">7.2.</strong> Syndicates</a></li><li><a href="../monstrous_society/cults.html"><strong aria-hidden="true">7.3.</strong> Cults</a></li><li><a href="../monstrous_society/antagonistic_organizations.html"><strong aria-hidden="true">7.4.</strong> Antagonistic Organizations</a></li><li><a href="../monstrous_society/political_aspirations.html"><strong aria-hidden="true">7.5.</strong> Political Aspirations</a></li></ol></li><li><a href="../skills.html"><strong aria-hidden="true">8.</strong> Skills</a></li><li><ol class="section"><li><a href="../skills/physical_skills.html"><strong aria-hidden="true">8.1.</strong> Physical Skills</a></li><li><a href="../skills/social_skills.html"><strong aria-hidden="true">8.2.</strong> Social Skills</a></li><li><a href="../skills/technical_skills.html"><strong aria-hidden="true">8.3.</strong> Technical Skills</a></li><li><a href="../skills/specializations.html"><strong aria-hidden="true">8.4.</strong> Specializations</a></li><li><a href="../skills/backgrounds.html"><strong aria-hidden="true">8.5.</strong> Backgrounds</a></li><li><a href="../skills/using_skills.html"><strong aria-hidden="true">8.6.</strong> Using Skills</a></li><li><a href="../skills/using_attributes_without_skills.html"><strong aria-hidden="true">8.7.</strong> Using Attributes Without Skills</a></li></ol></li><li><a href="../getting_what_you_need.html"><strong aria-hidden="true">9.</strong> Getting What You Need</a></li><li><ol class="section"><li><a href="../getting_what_you_need/keeping_things_quiet.html"><strong aria-hidden="true">9.1.</strong> Keeping Things Quiet</a></li><li><a href="../getting_what_you_need/asking_around_montages.html"><strong aria-hidden="true">9.2.</strong> Asking Around: Montages</a></li><li><a href="../getting_what_you_need/interviewing_people.html"><strong aria-hidden="true">9.3.</strong> Interviewing People</a></li><li><a href="../getting_what_you_need/persuasive_argumentation.html"><strong aria-hidden="true">9.4.</strong> Persuasive Argumentation</a></li><li><a href="../getting_what_you_need/arguments_from_rhetoric.html"><strong aria-hidden="true">9.5.</strong> Arguments From Rhetoric</a></li></ol></li><li><a href="../danger.html"><strong aria-hidden="true">10.</strong> Danger</a></li><li><ol class="section"><li><a href="../danger/moving,_evading,_and_escaping.html"><strong aria-hidden="true">10.1.</strong> Moving, Evading, and Escaping</a></li><li><a href="../danger/attacking.html"><strong aria-hidden="true">10.2.</strong> Attacking</a></li><li><a href="../danger/weaponry_and_hazards.html"><strong aria-hidden="true">10.3.</strong> Weaponry and Hazards</a></li><li><a href="../danger/armor.html"><strong aria-hidden="true">10.4.</strong> Armor</a></li><li><a href="../danger/wounds.html"><strong aria-hidden="true">10.5.</strong> Wounds</a></li><li><a href="../danger/healing_and_death.html"><strong aria-hidden="true">10.6.</strong> Healing and Death</a></li><li><a href="../danger/temporary_conditions.html"><strong aria-hidden="true">10.7.</strong> Temporary Conditions</a></li><li><a href="../danger/wind_and_water.html"><strong aria-hidden="true">10.8.</strong> Wind and Water</a></li></ol></li><li><a href="../monsters.html"><strong aria-hidden="true">11.</strong> Monsters</a></li><li><ol class="section"><li><a href="../monsters/lycanthropy.html"><strong aria-hidden="true">11.1.</strong> Lycanthropy</a></li><li><a href="../monsters/vampirism.html"><strong aria-hidden="true">11.2.</strong> Vampirism</a></li><li><a href="../monsters/witchcraft.html"><strong aria-hidden="true">11.3.</strong> Witchcraft</a></li><li><a href="../monsters/animates.html"><strong aria-hidden="true">11.4.</strong> Animates</a></li><li><a href="../monsters/leviathans.html"><strong aria-hidden="true">11.5.</strong> Leviathans</a></li><li><a href="../monsters/transhumans.html"><strong aria-hidden="true">11.6.</strong> Transhumans</a></li><li><a href="../monsters/zombies.html"><strong aria-hidden="true">11.7.</strong> Zombies</a></li><li><a href="../monsters/fey.html"><strong aria-hidden="true">11.8.</strong> Fey</a></li><li><a href="../monsters/giant_animals.html"><strong aria-hidden="true">11.9.</strong> Giant Animals</a></li><li><a href="../monsters/ghosts.html"><strong aria-hidden="true">11.10.</strong> Ghosts</a></li><li><a href="../monsters/demons.html"><strong aria-hidden="true">11.11.</strong> Demons</a></li><li><a href="../monsters/evil_plants.html"><strong aria-hidden="true">11.12.</strong> Evil Plants</a></li><li><a href="../monsters/spawn_monsters.html"><strong aria-hidden="true">11.13.</strong> Spawn Monsters</a></li></ol></li><li><a href="../magic.html"><strong aria-hidden="true">12.</strong> Magic</a></li><li><ol class="section"><li><a href="../magic/universal_disciplines.html"><strong aria-hidden="true">12.1.</strong> Universal Disciplines</a></li><li><a href="../magic/astral_disciplines.html"><strong aria-hidden="true">12.2.</strong> Astral Disciplines</a></li><li><a href="../magic/infernal_discplines.html"><strong aria-hidden="true">12.3.</strong> Infernal Discplines</a></li><li><a href="../magic/orphic_disciplines.html"><strong aria-hidden="true">12.4.</strong> Orphic Disciplines</a></li><li><a href="../magic/devotions.html"><strong aria-hidden="true">12.5.</strong> Devotions</a></li></ol></li><li><a href="../character_options_and_motivation.html"><strong aria-hidden="true">13.</strong> Character Options and Motivation</a></li><li><ol class="section"><li><a href="../character_options_and_motivations/resources_and_obligations.html"><strong aria-hidden="true">13.1.</strong> Resources and Obligations</a></li><li><a href="../character_options_and_motivations/motivations_&_passions.html"><strong aria-hidden="true">13.2.</strong> Motivations &amp; Passions</a></li><li><a href="../character_options_and_motivations/advantages_and_disadvantages.html"><strong aria-hidden="true">13.3.</strong> Advantages and Disadvantages</a></li><li><a href="../character_options_and_motivations/character_advancement.html"><strong aria-hidden="true">13.4.</strong> Character Advancement</a></li></ol></li><li><a href="../the_world_at_night.html"><strong aria-hidden="true">14.</strong> The World at Night</a></li><li><ol class="section"><li><a href="../the_world_at_night/mexico_city.html"><strong aria-hidden="true">14.1.</strong> Mexico City</a></li><li><a href="../the_world_at_night/houston.html"><strong aria-hidden="true">14.2.</strong> Houston</a></li><li><a href="../the_world_at_night/kuala_lumpur.html"><strong aria-hidden="true">14.3.</strong> Kuala Lumpur</a></li><li><a href="../the_world_at_night/new_york.html"><strong aria-hidden="true">14.4.</strong> New York</a></li><li><a href="../the_world_at_night/paris.html"><strong aria-hidden="true">14.5.</strong> Paris</a></li><li><a href="../the_world_at_night/prague.html"><strong aria-hidden="true">14.6.</strong> Prague</a></li><li><a href="../the_world_at_night/san_francisco.html"><strong aria-hidden="true">14.7.</strong> San Francisco</a></li></ol></li><li><a href="../persona_non_grata.html"><strong aria-hidden="true">15.</strong> Persona non Grata</a></li><li><ol class="section"><li><a href="../persona_non_grata/people.html"><strong aria-hidden="true">15.1.</strong> People</a></li><li><a href="../persona_non_grata/animals.html"><strong aria-hidden="true">15.2.</strong> Animals</a></li><li><a href="../persona_non_grata/places.html"><strong aria-hidden="true">15.3.</strong> Places</a></li><li><a href="../persona_non_grata/things.html"><strong aria-hidden="true">15.4.</strong> Things</a></li><li><a href="../persona_non_grata/standardizing_nonstandard_magic.html" class="active"><strong aria-hidden="true">15.5.</strong> Standardizing Nonstandard Magic</a></li><li><a href="../persona_non_grata/i_fought_the_law.html"><strong aria-hidden="true">15.6.</strong> I Fought The Law</a></li></ol></li><li><a href="../points_of_view.html"><strong aria-hidden="true">16.</strong> Points of View</a></li><li><ol class="section"><li><a href="../points_of_view/first_person.html"><strong aria-hidden="true">16.1.</strong> First Person</a></li><li><a href="../points_of_view/second_person.html"><strong aria-hidden="true">16.2.</strong> Second Person</a></li><li><a href="../points_of_view/third_person.html"><strong aria-hidden="true">16.3.</strong> Third Person</a></li><li><a href="../points_of_view/the_fourth_wall.html"><strong aria-hidden="true">16.4.</strong> The Fourth Wall</a></li></ol></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">After Sundown 1e</h1> 
+
+                        <div class="right-buttons">
+                            <a href="../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="#standardizing-nonstandard-magic" id="standardizing-nonstandard-magic"><h2>Standardizing Nonstandard Magic</h2></a>
+<p><em>No, seriously, that's something you can't do that you <strong>actually</strong> can't do.</em></p>
+<p>Cursed knives, ancient curses, stellar alignments, and mighty rituals of vast power are all an integral part of the Modern Gothic Horror genre, but they are also generally specific enough that they do not readily translate into hard and fast rules. Nonstandard magics should be different enough to drive stories and provoke interest, but not different enough to undermine the consistency of the setting. Powerful enough to be worth chasing after, but not so powerful that they invalidate other life choices.</p>
+<a class="header" href="#ritual-magic" id="ritual-magic"><h3>Ritual Magic</h3></a>
+<p><em>More magic can do more things. If you draw upon more magic, you can do more things. But more things can happen when more magic is used.</em></p>
+<p>What Ritual Magic <em>does</em> is allow characters to use powers that they never actually wrote on their character sheet. As such it is almost by definition <em>unbalanced</em>, and needs to be kept under a strict leash. A mighty ritual that allows a character to use an Advanced Power when they don't have it is problematic, and a mighty ritual that allows a character to draw upon an Elder Power they don't actually know is even more so.</p>
+<p>The provisions for a mighty ritual of vast power can be basically anything, and it is up to the MC to determine what they specifically are in any specific case. Within the context of the story, the characters read through a bunch of mystical books in a library and find the formula for a relevant and possible sounding ritual, but in a very real way any possible ritual is essentially custom placed by the MC with (ideally) the chronicle going on <em>in mind</em>. Here are some guidelines:</p>
+<ul>
+<li>
+<p>A Ritual whose effects are of sufficient importance to be <em>worth</em> questing an entire story for should have requirements that are sufficiently difficult that they actually take up the whole story to put together.</p>
+</li>
+<li>
+<p>A Ritual whose effects are merely a stepping stone towards completing a story should have requirements that the players can plausibly get together as part of a story.</p>
+</li>
+<li>
+<p>Any Ritual should have requirements that for whatever reason the players are unlikely to be able to repeat for credit. At least, not often enough to become routine or get annoying. Stellar alignments are great for this, because by definition they won't come again for some arbitrary (and probably large) amount of time.</p>
+</li>
+</ul>
+<a class="header" href="#items-of-great-power" id="items-of-great-power"><h3>Items of Great Power</h3></a>
+<p><em>The ring <strong>wants</strong> to be found.</em></p>
+<p>Magical objects, like tools of science, could do practically anything. They are limited primarily by your imagination and the suspension of disbelief of the audience. That second one is important, and it is good to remember that no item has ever been powerful enough that the world would not have turned out the way it did. There is no gong that cures all the whooping cough on Earth, because pertussis still exists. There's no pearl that sinks Japan, because Japan is still demonstrably above the sea. There is no cauldron that makes an unbeatable world-conquering army, because no one conquered the whole world. No matter how impressive any magic item is, it is in some very important way less world changing, less <em>powerful</em> than a hydroelectric dam or an atomic bomb. And yes, that leaves a great deal of wiggle room, but it is important to keep perspective that there are no magic items that could allow their owner to overwhelm a powerful country like the Russian Federation by force of arms.</p>
+<p>Which does not mean of course that any particular item of power is not a big deal. There is no everfull purse that produces enough gold to destabilize world metal prices, but there may very well be a goose that lays golden eggs of sufficient quantity to make the owner spectacularly filthy rich. And while no magical weapon reaches the heights of city destruction achievable by nuclear fusion, there are many magical weapons that are exceedingly impressive for their size, and capable of feats of murder all out of proportion to their probable police response. You could probably get a license to own, and in Texas <em>concealed carry</em> the masterpiece of Daniel Colt.</p>
+<p>Magical objects should be valuable, which means that the things they do should in general be things that a comparably sized electronic object would not do with the introduction of a few AA batteries. While there are stones that make light <em>by magic</em>, those are not really worth talking about in a modern context unless you are showing the paucity of ancient wonders and superstitions (in which case, go nuts). Magic items are not reproducible (or at least, not <em>mass</em> reproducible). If you find a magical perpetual motion machine, you <em>can't</em> make tonnes of ostensibly identical copies that collectively generate limitless power and change the world. If you are given such an item you may well be able to keep a secret base operating &quot;completely off the grid&quot; but magic is not going to be an answer to fossil fuel dependency.  But an important thing to consider when making a magical object is that in general it should be doing something that is not replicable by  store bought materials and thus <em>worth</em> searching for and fighting over. Magical objects transcend what a normal tool is capable of, and since tools can already do some amazing things, that's a pretty big deal. Here are some short and pithy guidelines for making a magical object:</p>
+<ul>
+<li>Magical objects should do something that is clearly magical, not simply have enhanced properties that might be achieved by making an object out of better steel or burning through batteries faster.</li>
+<li>Magical objects may in fact be cursed, and a lot of them are. But remember that any curse that is more impressive than the nominal effect will be used for whatever it is the curse does (turn people into murderers, summon chimerae, whatever), if at all. An item where the curse exceeds its nominal utility is essentially useless for its nominal utility and you shouldn't make it like that.</li>
+<li>Magical objects in general should do something different from normal Powers. This is so that people who got actual Powers don't feel like <em>suckers</em> when someone else finds a magic mirror that does the same thing. For that matter, any item that is as impressive or more so than a genuine Power should be presented as being very rare and impressive - and they should not be easily acquired or retained.</li>
+<li>Bonuses are boring. It isn't that people don't <em>like</em> having a +2 bonus to Athletics because they are wearing magic shoes, but those sorts of effects are basically indistinguishable from simply having larger numbers in those dicepools in an entirely mundane fashion. In general, magic shoes should do something <em>different</em> than merely doing the thing you normally do, but better.</li>
+</ul>
+<a class="header" href="#getting-items-of-power" id="getting-items-of-power"><h3>Getting Items of Power</h3></a>
+<p><em>See an evil penny and pick it up, all the day... something something.</em></p>
+<p>An item of power can serve as one of two main roles in a chronicle: either as a plot point or as a resource. In either case, the amount of effort it takes to acquire them should be roughly commensurate with how much effort would be required to get to a similarly useful resource or plot twist by other means. A minor artifact is a simple Rating 1 Destiny Resource, and could easily be a toss-off to show that &quot;something was up&quot; in the same way that handing out a Rating 1 Financial Resource might be. For example, if the coterie breaks into a loft and the villains aren't there, they might find a simple magic dagger or cursed wand to show that - indeed - they had the right loft (and also to make it not seem like the players had wasted their time only to find that the enemy had already been on the move). The MC could just as easily use a stolen painting or a pile of bloody watches to show the same thing, but sometimes a monkey's paw that mysteriously curdles milk and sours juice it is pointed at is just <em>more interesting</em>.</p>
+<p>A plot device can be basically anything. Even a tattered scarf could plausibly be the clue that reveals the true murderer or the fetter that binds an important ghost. So a magic item whose purpose in the story is to advance the Chronicle should be restricted merely by how important the plot point is, and what stage the characters are in the story. The special mirrored surface out of which an ancient and powerful Asura can walk might take much heartache, legwork, and sacrifice to get to if doing so is the culmination of a multi-story chronicle. On the other hand, if said Asura is just someone who is going to give a clue as to where the coterie needs to go fly to in order to find the ruins of the Troll city that the Shattered Empire hugs have taken Caitlin, then the player characters might just need to break into a museum at night and touch the thing.</p>
+<p>Most magic items are in fact built. At least, at some point. And they are created through mighty rituals of vast power. And the mighty ritual of vast power should be roughly as difficult to research and pull off as going through the story and finding an artifact of similar utility. Items gained without a story just don't have much of a story to them - and the story is after all what people are actually there for. Whether the story is that you went into the bog and listened to the old hag and took the silver pentagram that can be used to break a shadow gate after you proved your worth; or that you went into the bog and listened to the old hag, and got told how to make the silver pentagram that breaks the shadowgate after proving your worth is rather meaningless of a metagame distinction. But it <em>feels</em> different, so the MC should mix it up a bit and have players end up conducting the mighty rituals of power that make these things at least sometimes.</p>
+<a class="header" href="#additional-abilities-in-the-disciplines" id="additional-abilities-in-the-disciplines"><h3>Additional Abilities in the Disciplines</h3></a>
+<p><em>Didn't think I could do that, did ya?</em></p>
+<p>There is no special rule that each Discipline has to have precisely two powers available at Basic, Advanced, and Elder levels. And indeed, some Disciplines have a third  ability listed in one of the mastery levels in the basic rules. Furthermore, future material may well come with alternate abilities for characters to have instead of the normal features of Powers. Or, as a MC you could write some of your own.</p>
+<p>Adding new abilities to Disciplines can be a cool way to spice things up. But it can also dilute the setting, and make characters more powerful. All things being equal, the larger a number of abilities a player has to sort through, the more work it is going to be <em>and</em> the more powerful a result they are likely to get by cherry picking the right combination of abilities. New abilities should probably not use radically different dicepools than other powers in the same Discipline, because otherwise you are going to be moving towards a world where someone can max one attribute and one skill and get a very high dicepool in a wide variety of different powers. Similarly, a new ability should not do something radically different from other abilities in the same Discipline.</p>
+<p>But above and beyond the simple balance issues that arise from increasing the set size of potential abilities, there's also the concept of <em>setting strain</em> to worry about. There is, for example, no ability that currently allows a character to travel to the dark side of the moon. And while there's nothing inherently overpowered about collecting moon rocks or building a secret base there, it would still be a very large problem to add such an option to the game. So long as there's no way to get to Luna, the moon is outside the playspace entirely, and players do not have to discuss their enemies having gone to the moon - nor do they have to obtain powers to potentially go there. One of the primary things that make games fall apart is the simple proliferation of other places that all need their own powers to reach. If one were to add the distant planet of the Pods, the mythical homeland of the Demons, and a few garden variety Alternate Earths, the game would become very cluttered and confusing.</p>
+<p><strong>Example:</strong> Building on the huge strength facet of Clout, an extra Elder ability can be stuck in that makes the user bigger than Giant Size does. This is the signature power of Nabau, the enormous Makhzen Mehtar of Kuala Lumpur (and yeah, he has the &quot;can't turn it off&quot; version). This power is a reasonable extension of Clout because it is different enough from previously published powers to notice, and yet it does not overly increase the utility of any skill, nor does it bring something into the conceptual space that is completely unprecedented (Kaiju are already this huge).</p>
+<p><strong>Titanic Size:</strong> The character gets super huge. Like 8-12 meters in raw hugeness. While in Titanic Size, the character's Strength is increased by 20 and they have 3 points of armor. Transforming takes a Complex Action and 8 Power Points, and lasts until the end of the scene. Titanic Size is a Protean Power, and does not stack with Giant Size. Some creatures get Titanic Size &quot;always on&quot; where they never shrink down to human size.</p>
+<a class="header" href="#new-disciplines" id="new-disciplines"><h3>New Disciplines</h3></a>
+<p><em>I have mastered the art of Obscurica, and I can do things you doubtlessly think are impossible.</em></p>
+<p>I strongly suggest <em>not</em> making new universal or sorcerous disciplines. It's not that you can't make a new Discipline that is balanced, because you totally can. It's that new Disciplines undermine the foundation of the game as a <em>shared</em> storytelling medium. The coherency of the world comes apart a little bit every time a new Discipline is introduced. At the limit of adding infinite Disciplines, no action that any character takes with magic has any <em>context</em> - even if none of the new Disciplines is substantially over powered or deceptively worthless, the game still becomes essentially unplayable. However, I am equally aware that a substantial number of groups will, for reasons base or noble, choose to ignore that advice and write new Universal Disciplines or Sorcerous Disciplines into the story. This can actually be fine. A 23rd Discipline is <em>not</em> the same thing as the 101st Discipline, and the conceptual coverage of the magical disciplines in After Sundown is essentially arbitrary. It's entirely possible to add a new Discipline or two without breaking anything. But remember: it <em>is</em> a slippery slope and you seriously <em>can't</em> just keep adding new Disciplines forever without breaking the world. Don't be afraid to put your foot down. Just because you let one player bring a new Discipline into the game and it would be &quot;fair&quot; to allow another player the same opportunity doesn't mean that placing more straw on your camel is a good idea.</p>
+<p>But if you <em>are</em> going to make a new Discipline, keep some things in mind:</p>
+<ul>
+<li>
+<p>Sorceries are still Astral, Infernal, or Orphic. You may think you have a cool idea for some fourth power source, but dowsing and preparing counterspells for 3 flavors of magic is already hard to keep track of. A fourth power source means that monster hunters will have a whole new set of equipment in addition to all the crap they have to carry around with themselves. And that's bad.</p>
+</li>
+<li>
+<p>A new Discipline should have 2 Basic, 2 Advanced, and 2 Elder Abilities in it. If you can't think of that many powers for it, you should <em>seriously</em> consider the idea that you don't have a Discipline worth writing up or disturbing the status quo for.</p>
+</li>
+<li>
+<p>You already have a set of a powers that you can draw upon for ideas in the form of the Disciplines already printed. If you have a Basic Ability in a Discipline, go ahead and compare it to the Basic Abilities of Discipline already printed.</p>
+</li>
+<li>
+<p>Each new Discipline will be taken by probably one character at most in your game. So you should make sure that the dicepool choices for the abilities are pretty static through the whole writeup.</p>
+</li>
+<li>
+<p>Discipline that are collections of heterogeneous abilities are, in general, hard to keep track of and you shouldn't make them. It might be tempting to make a Discipline that is simply the list of abilities displayed by some sorcerer in a book you liked, but such &quot;stuff from the attic&quot; powers confuse players. A new Discipline should, if anything, be more clearly themed than one of the ones in the basic book - the players won't have it in the book to go back to so it needs to be more memorable on its own merits.</p>
+</li>
+</ul>
+<a class="header" href="#subtypes-bloodlines-strains-and-schools-of-thought" id="subtypes-bloodlines-strains-and-schools-of-thought"><h3>Subtypes: Bloodlines, Strains, and Schools of Thought</h3></a>
+<p><em>We are defined by our similarities as well as our differences.</em></p>
+<p>It is sometimes useful to a story to have a bloodline of Vampires or a family of Leviathan who represent a recognizable clade. It is tempting to write additional powers for such groups or to trade basic powers of their type for other powers in order to make them stand out and &quot;feel unique&quot;. This is a terrible plan, and you shouldn't do it. A subgroup doesn't need to feel <em>unique</em>, because every character is by definition a unique individual to begin with. A group actually needs something to promote a feeling of <em>group identity</em>, because that doesn't just happen. An easy and effective way to do this is to give everyone in the defined group one or more of the same selections of optional Powers. An entire family where everyone is super strong, or every member can see ghosts has obvious traction, and relates members of the family one to another.</p>
+<p>These kinds of subgroups can be pretty small - often appearing in only one city and being of merely sufficient size to be interesting actors in a single storyline. And they have different names depending on what they are a subgroup <em>of</em>. A line of Vampires where each of the children ends up with specific &quot;optional&quot; Powers that the progenitor also had is called a &quot;bloodline&quot;. A line of Lycanthropes where each newly risen victim has a specific and recognizable power shared by their attacker is called a &quot;strain&quot;. Related Leviathan whose abilities manifest in a similar way are called a &quot;house&quot; if you want to be fancy and a &quot;tribe&quot; if you don't. A group of Witches who learn their similar powers in a similar way is called a &quot;school&quot;. Animates who are built by the same technique are rare indeed, but are called a &quot;version&quot;. Transhumans don't really <em>have</em> a name for this sort of thing, because they experience it very differently. The Reborn only happen like this in groups of 2-4 people whose past lives intersected in all kinds of ways (usually as lovers or enemies - or both), and the <em>process</em> is called &quot;fate linking,&quot; but there is no special name for the people whose fates have been so linked. People who become Fallen by being cast into the Dark Reflection together or having had their soul yanked by the same demon or artifact may well get similar powers - and they are called a &quot;chain&quot;. The Icarids have pretensions to science and do not have consistent nomenclature for the phenomenon. Each competing mad scientist has their own theory of how it works, and the fact that a process repeated on another mad luminary produces the same result is in no way surprising or noteworthy to the luminaries who did it - and they end up calling themselves whatever it is that they call the results of their process according to their personal nomenclature.</p>
+<p>So the Sawyer Tribe is a group of closely related Troglodytes who are all fearfully strong. Every one of them has Devastation as one of their Powers. And if a player wished to make a character who was born into the Sawyer Tribe, they would select Devastation as one of their additional Powers upon applying the transformation. On a less hoboriffic note, within the Ulmi there is a core of dedicated immortal necromancers who teach the original Venetian necromancer's secrets of power. This is the Ulmi School, and those luminaries who are trained in it become Khaibit who have Patience of the Mountains. The Sisters of Cacophony is the name given to a lesbian Strigoi who calls herself Cacophony and the exclusively female bloodline she has founded, with each new inductee manifesting with Missing Voice and Death Note.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../persona_non_grata/things.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../persona_non_grata/i_fought_the_law.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../persona_non_grata/things.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../persona_non_grata/i_fought_the_law.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

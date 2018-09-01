@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Running The Game - After Sundown 1e</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop RPG in a world of monsters and horror.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">var path_to_root = "";</script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li class="affix"><a href="introduction.html">Introduction</a></li><li class="affix"><a href="terrible_places_and_people.html">Terrible Places and People</a></li><li><a href="terrible_places_and_people/maya.html"><strong aria-hidden="true">1.</strong> Maya</a></li><li><a href="terrible_places_and_people/limbo.html"><strong aria-hidden="true">2.</strong> Limbo</a></li><li><a href="terrible_places_and_people/mictlan.html"><strong aria-hidden="true">3.</strong> Mictlan</a></li><li><a href="terrible_places_and_people/being_in_between_worlds.html"><strong aria-hidden="true">4.</strong> Being In Between Worlds</a></li><li><a href="terrible_places_and_people/terrible_people.html"><strong aria-hidden="true">5.</strong> Terrible People</a></li><li><a href="running_the_game.html" class="active"><strong aria-hidden="true">6.</strong> Running The Game</a></li><li><ol class="section"><li><a href="running_the_game/basic_dice_mechanics.html"><strong aria-hidden="true">6.1.</strong> Basic Dice Mechanics</a></li><li><a href="running_the_game/character_generation.html"><strong aria-hidden="true">6.2.</strong> Character Generation</a></li><li><a href="running_the_game/advancing_goals.html"><strong aria-hidden="true">6.3.</strong> Advancing Goals</a></li><li><a href="running_the_game/jobs,_missions,_and_quests.html"><strong aria-hidden="true">6.4.</strong> Jobs, Missions, and Quests</a></li><li><a href="running_the_game/placing_opposition.html"><strong aria-hidden="true">6.5.</strong> Placing Opposition</a></li></ol></li><li><a href="monstrous_society.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li><a href="monstrous_society/bands.html"><strong aria-hidden="true">7.1.</strong> Bands</a></li><li><a href="monstrous_society/syndicates.html"><strong aria-hidden="true">7.2.</strong> Syndicates</a></li><li><a href="monstrous_society/cults.html"><strong aria-hidden="true">7.3.</strong> Cults</a></li><li><a href="monstrous_society/antagonistic_organizations.html"><strong aria-hidden="true">7.4.</strong> Antagonistic Organizations</a></li><li><a href="monstrous_society/political_aspirations.html"><strong aria-hidden="true">7.5.</strong> Political Aspirations</a></li></ol></li><li><a href="skills.html"><strong aria-hidden="true">8.</strong> Skills</a></li><li><ol class="section"><li><a href="skills/physical_skills.html"><strong aria-hidden="true">8.1.</strong> Physical Skills</a></li><li><a href="skills/social_skills.html"><strong aria-hidden="true">8.2.</strong> Social Skills</a></li><li><a href="skills/technical_skills.html"><strong aria-hidden="true">8.3.</strong> Technical Skills</a></li><li><a href="skills/specializations.html"><strong aria-hidden="true">8.4.</strong> Specializations</a></li><li><a href="skills/backgrounds.html"><strong aria-hidden="true">8.5.</strong> Backgrounds</a></li><li><a href="skills/using_skills.html"><strong aria-hidden="true">8.6.</strong> Using Skills</a></li><li><a href="skills/using_attributes_without_skills.html"><strong aria-hidden="true">8.7.</strong> Using Attributes Without Skills</a></li></ol></li><li><a href="getting_what_you_need.html"><strong aria-hidden="true">9.</strong> Getting What You Need</a></li><li><ol class="section"><li><a href="getting_what_you_need/keeping_things_quiet.html"><strong aria-hidden="true">9.1.</strong> Keeping Things Quiet</a></li><li><a href="getting_what_you_need/asking_around_montages.html"><strong aria-hidden="true">9.2.</strong> Asking Around: Montages</a></li><li><a href="getting_what_you_need/interviewing_people.html"><strong aria-hidden="true">9.3.</strong> Interviewing People</a></li><li><a href="getting_what_you_need/persuasive_argumentation.html"><strong aria-hidden="true">9.4.</strong> Persuasive Argumentation</a></li><li><a href="getting_what_you_need/arguments_from_rhetoric.html"><strong aria-hidden="true">9.5.</strong> Arguments From Rhetoric</a></li></ol></li><li><a href="danger.html"><strong aria-hidden="true">10.</strong> Danger</a></li><li><ol class="section"><li><a href="danger/moving,_evading,_and_escaping.html"><strong aria-hidden="true">10.1.</strong> Moving, Evading, and Escaping</a></li><li><a href="danger/attacking.html"><strong aria-hidden="true">10.2.</strong> Attacking</a></li><li><a href="danger/weaponry_and_hazards.html"><strong aria-hidden="true">10.3.</strong> Weaponry and Hazards</a></li><li><a href="danger/armor.html"><strong aria-hidden="true">10.4.</strong> Armor</a></li><li><a href="danger/wounds.html"><strong aria-hidden="true">10.5.</strong> Wounds</a></li><li><a href="danger/healing_and_death.html"><strong aria-hidden="true">10.6.</strong> Healing and Death</a></li><li><a href="danger/temporary_conditions.html"><strong aria-hidden="true">10.7.</strong> Temporary Conditions</a></li><li><a href="danger/wind_and_water.html"><strong aria-hidden="true">10.8.</strong> Wind and Water</a></li></ol></li><li><a href="monsters.html"><strong aria-hidden="true">11.</strong> Monsters</a></li><li><ol class="section"><li><a href="monsters/lycanthropy.html"><strong aria-hidden="true">11.1.</strong> Lycanthropy</a></li><li><a href="monsters/vampirism.html"><strong aria-hidden="true">11.2.</strong> Vampirism</a></li><li><a href="monsters/witchcraft.html"><strong aria-hidden="true">11.3.</strong> Witchcraft</a></li><li><a href="monsters/animates.html"><strong aria-hidden="true">11.4.</strong> Animates</a></li><li><a href="monsters/leviathans.html"><strong aria-hidden="true">11.5.</strong> Leviathans</a></li><li><a href="monsters/transhumans.html"><strong aria-hidden="true">11.6.</strong> Transhumans</a></li><li><a href="monsters/zombies.html"><strong aria-hidden="true">11.7.</strong> Zombies</a></li><li><a href="monsters/fey.html"><strong aria-hidden="true">11.8.</strong> Fey</a></li><li><a href="monsters/giant_animals.html"><strong aria-hidden="true">11.9.</strong> Giant Animals</a></li><li><a href="monsters/ghosts.html"><strong aria-hidden="true">11.10.</strong> Ghosts</a></li><li><a href="monsters/demons.html"><strong aria-hidden="true">11.11.</strong> Demons</a></li><li><a href="monsters/evil_plants.html"><strong aria-hidden="true">11.12.</strong> Evil Plants</a></li><li><a href="monsters/spawn_monsters.html"><strong aria-hidden="true">11.13.</strong> Spawn Monsters</a></li></ol></li><li><a href="magic.html"><strong aria-hidden="true">12.</strong> Magic</a></li><li><ol class="section"><li><a href="magic/universal_disciplines.html"><strong aria-hidden="true">12.1.</strong> Universal Disciplines</a></li><li><a href="magic/astral_disciplines.html"><strong aria-hidden="true">12.2.</strong> Astral Disciplines</a></li><li><a href="magic/infernal_discplines.html"><strong aria-hidden="true">12.3.</strong> Infernal Discplines</a></li><li><a href="magic/orphic_disciplines.html"><strong aria-hidden="true">12.4.</strong> Orphic Disciplines</a></li><li><a href="magic/devotions.html"><strong aria-hidden="true">12.5.</strong> Devotions</a></li></ol></li><li><a href="character_options_and_motivation.html"><strong aria-hidden="true">13.</strong> Character Options and Motivation</a></li><li><ol class="section"><li><a href="character_options_and_motivations/resources_and_obligations.html"><strong aria-hidden="true">13.1.</strong> Resources and Obligations</a></li><li><a href="character_options_and_motivations/motivations_&_passions.html"><strong aria-hidden="true">13.2.</strong> Motivations &amp; Passions</a></li><li><a href="character_options_and_motivations/advantages_and_disadvantages.html"><strong aria-hidden="true">13.3.</strong> Advantages and Disadvantages</a></li><li><a href="character_options_and_motivations/character_advancement.html"><strong aria-hidden="true">13.4.</strong> Character Advancement</a></li></ol></li><li><a href="the_world_at_night.html"><strong aria-hidden="true">14.</strong> The World at Night</a></li><li><ol class="section"><li><a href="the_world_at_night/mexico_city.html"><strong aria-hidden="true">14.1.</strong> Mexico City</a></li><li><a href="the_world_at_night/houston.html"><strong aria-hidden="true">14.2.</strong> Houston</a></li><li><a href="the_world_at_night/kuala_lumpur.html"><strong aria-hidden="true">14.3.</strong> Kuala Lumpur</a></li><li><a href="the_world_at_night/new_york.html"><strong aria-hidden="true">14.4.</strong> New York</a></li><li><a href="the_world_at_night/paris.html"><strong aria-hidden="true">14.5.</strong> Paris</a></li><li><a href="the_world_at_night/prague.html"><strong aria-hidden="true">14.6.</strong> Prague</a></li><li><a href="the_world_at_night/san_francisco.html"><strong aria-hidden="true">14.7.</strong> San Francisco</a></li></ol></li><li><a href="persona_non_grata.html"><strong aria-hidden="true">15.</strong> Persona non Grata</a></li><li><ol class="section"><li><a href="persona_non_grata/people.html"><strong aria-hidden="true">15.1.</strong> People</a></li><li><a href="persona_non_grata/animals.html"><strong aria-hidden="true">15.2.</strong> Animals</a></li><li><a href="persona_non_grata/places.html"><strong aria-hidden="true">15.3.</strong> Places</a></li><li><a href="persona_non_grata/things.html"><strong aria-hidden="true">15.4.</strong> Things</a></li><li><a href="persona_non_grata/standardizing_nonstandard_magic.html"><strong aria-hidden="true">15.5.</strong> Standardizing Nonstandard Magic</a></li><li><a href="persona_non_grata/i_fought_the_law.html"><strong aria-hidden="true">15.6.</strong> I Fought The Law</a></li></ol></li><li><a href="points_of_view.html"><strong aria-hidden="true">16.</strong> Points of View</a></li><li><ol class="section"><li><a href="points_of_view/first_person.html"><strong aria-hidden="true">16.1.</strong> First Person</a></li><li><a href="points_of_view/second_person.html"><strong aria-hidden="true">16.2.</strong> Second Person</a></li><li><a href="points_of_view/third_person.html"><strong aria-hidden="true">16.3.</strong> Third Person</a></li><li><a href="points_of_view/the_fourth_wall.html"><strong aria-hidden="true">16.4.</strong> The Fourth Wall</a></li></ol></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">After Sundown 1e</h1> 
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="#running-the-game" id="running-the-game"><h1>Running the Game</h1></a>
+<p>After Sundown is a collaborative storytelling game, where all the players except one take the roles of the protagonists in an ensemble story set in the realm of horror. The odd player out is the MC, who acts as narrator, director, and actor of last resort for all the other characters in the story. The MC has substantial leeway in interpreting how events unfold and is responsible for much of the writing of the backstory. Nevertheless, the story is still <em>about</em> the player characters, and no one should forget that.</p>
+<p>Player characters will have numbers and abilities written on a character sheet that demonstrate what they are capable of, but in most cases the players themselves will determine what their character actually does. When actions are declared, dice are often rolled to determine the results of the action. But when that is not enough (or would be too tedious as is the case for many minor actions), the MC can deterministically assign results.</p>
+<p>Actual stories are told cooperatively, with players bringing up events relevant to their character's backstory and possibilities for the MC to consider weaving into the ongoing description of the world and having real solid first person narrative control over the actions and dialog of their player character. The MC is sometimes said to be &quot;running&quot; the game, because they provide the narrative control on the stage where the protagonists act.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="terrible_places_and_people/terrible_people.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="running_the_game/basic_dice_mechanics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="terrible_places_and_people/terrible_people.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="running_the_game/basic_dice_mechanics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

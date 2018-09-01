@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Weaponry and Hazards - After Sundown 1e</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop RPG in a world of monsters and horror.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">var path_to_root = "../";</script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li class="affix"><a href="../introduction.html">Introduction</a></li><li class="affix"><a href="../terrible_places_and_people.html">Terrible Places and People</a></li><li><a href="../terrible_places_and_people/maya.html"><strong aria-hidden="true">1.</strong> Maya</a></li><li><a href="../terrible_places_and_people/limbo.html"><strong aria-hidden="true">2.</strong> Limbo</a></li><li><a href="../terrible_places_and_people/mictlan.html"><strong aria-hidden="true">3.</strong> Mictlan</a></li><li><a href="../terrible_places_and_people/being_in_between_worlds.html"><strong aria-hidden="true">4.</strong> Being In Between Worlds</a></li><li><a href="../terrible_places_and_people/terrible_people.html"><strong aria-hidden="true">5.</strong> Terrible People</a></li><li><a href="../running_the_game.html"><strong aria-hidden="true">6.</strong> Running The Game</a></li><li><ol class="section"><li><a href="../running_the_game/basic_dice_mechanics.html"><strong aria-hidden="true">6.1.</strong> Basic Dice Mechanics</a></li><li><a href="../running_the_game/character_generation.html"><strong aria-hidden="true">6.2.</strong> Character Generation</a></li><li><a href="../running_the_game/advancing_goals.html"><strong aria-hidden="true">6.3.</strong> Advancing Goals</a></li><li><a href="../running_the_game/jobs,_missions,_and_quests.html"><strong aria-hidden="true">6.4.</strong> Jobs, Missions, and Quests</a></li><li><a href="../running_the_game/placing_opposition.html"><strong aria-hidden="true">6.5.</strong> Placing Opposition</a></li></ol></li><li><a href="../monstrous_society.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li><a href="../monstrous_society/bands.html"><strong aria-hidden="true">7.1.</strong> Bands</a></li><li><a href="../monstrous_society/syndicates.html"><strong aria-hidden="true">7.2.</strong> Syndicates</a></li><li><a href="../monstrous_society/cults.html"><strong aria-hidden="true">7.3.</strong> Cults</a></li><li><a href="../monstrous_society/antagonistic_organizations.html"><strong aria-hidden="true">7.4.</strong> Antagonistic Organizations</a></li><li><a href="../monstrous_society/political_aspirations.html"><strong aria-hidden="true">7.5.</strong> Political Aspirations</a></li></ol></li><li><a href="../skills.html"><strong aria-hidden="true">8.</strong> Skills</a></li><li><ol class="section"><li><a href="../skills/physical_skills.html"><strong aria-hidden="true">8.1.</strong> Physical Skills</a></li><li><a href="../skills/social_skills.html"><strong aria-hidden="true">8.2.</strong> Social Skills</a></li><li><a href="../skills/technical_skills.html"><strong aria-hidden="true">8.3.</strong> Technical Skills</a></li><li><a href="../skills/specializations.html"><strong aria-hidden="true">8.4.</strong> Specializations</a></li><li><a href="../skills/backgrounds.html"><strong aria-hidden="true">8.5.</strong> Backgrounds</a></li><li><a href="../skills/using_skills.html"><strong aria-hidden="true">8.6.</strong> Using Skills</a></li><li><a href="../skills/using_attributes_without_skills.html"><strong aria-hidden="true">8.7.</strong> Using Attributes Without Skills</a></li></ol></li><li><a href="../getting_what_you_need.html"><strong aria-hidden="true">9.</strong> Getting What You Need</a></li><li><ol class="section"><li><a href="../getting_what_you_need/keeping_things_quiet.html"><strong aria-hidden="true">9.1.</strong> Keeping Things Quiet</a></li><li><a href="../getting_what_you_need/asking_around_montages.html"><strong aria-hidden="true">9.2.</strong> Asking Around: Montages</a></li><li><a href="../getting_what_you_need/interviewing_people.html"><strong aria-hidden="true">9.3.</strong> Interviewing People</a></li><li><a href="../getting_what_you_need/persuasive_argumentation.html"><strong aria-hidden="true">9.4.</strong> Persuasive Argumentation</a></li><li><a href="../getting_what_you_need/arguments_from_rhetoric.html"><strong aria-hidden="true">9.5.</strong> Arguments From Rhetoric</a></li></ol></li><li><a href="../danger.html"><strong aria-hidden="true">10.</strong> Danger</a></li><li><ol class="section"><li><a href="../danger/moving,_evading,_and_escaping.html"><strong aria-hidden="true">10.1.</strong> Moving, Evading, and Escaping</a></li><li><a href="../danger/attacking.html"><strong aria-hidden="true">10.2.</strong> Attacking</a></li><li><a href="../danger/weaponry_and_hazards.html" class="active"><strong aria-hidden="true">10.3.</strong> Weaponry and Hazards</a></li><li><a href="../danger/armor.html"><strong aria-hidden="true">10.4.</strong> Armor</a></li><li><a href="../danger/wounds.html"><strong aria-hidden="true">10.5.</strong> Wounds</a></li><li><a href="../danger/healing_and_death.html"><strong aria-hidden="true">10.6.</strong> Healing and Death</a></li><li><a href="../danger/temporary_conditions.html"><strong aria-hidden="true">10.7.</strong> Temporary Conditions</a></li><li><a href="../danger/wind_and_water.html"><strong aria-hidden="true">10.8.</strong> Wind and Water</a></li></ol></li><li><a href="../monsters.html"><strong aria-hidden="true">11.</strong> Monsters</a></li><li><ol class="section"><li><a href="../monsters/lycanthropy.html"><strong aria-hidden="true">11.1.</strong> Lycanthropy</a></li><li><a href="../monsters/vampirism.html"><strong aria-hidden="true">11.2.</strong> Vampirism</a></li><li><a href="../monsters/witchcraft.html"><strong aria-hidden="true">11.3.</strong> Witchcraft</a></li><li><a href="../monsters/animates.html"><strong aria-hidden="true">11.4.</strong> Animates</a></li><li><a href="../monsters/leviathans.html"><strong aria-hidden="true">11.5.</strong> Leviathans</a></li><li><a href="../monsters/transhumans.html"><strong aria-hidden="true">11.6.</strong> Transhumans</a></li><li><a href="../monsters/zombies.html"><strong aria-hidden="true">11.7.</strong> Zombies</a></li><li><a href="../monsters/fey.html"><strong aria-hidden="true">11.8.</strong> Fey</a></li><li><a href="../monsters/giant_animals.html"><strong aria-hidden="true">11.9.</strong> Giant Animals</a></li><li><a href="../monsters/ghosts.html"><strong aria-hidden="true">11.10.</strong> Ghosts</a></li><li><a href="../monsters/demons.html"><strong aria-hidden="true">11.11.</strong> Demons</a></li><li><a href="../monsters/evil_plants.html"><strong aria-hidden="true">11.12.</strong> Evil Plants</a></li><li><a href="../monsters/spawn_monsters.html"><strong aria-hidden="true">11.13.</strong> Spawn Monsters</a></li></ol></li><li><a href="../magic.html"><strong aria-hidden="true">12.</strong> Magic</a></li><li><ol class="section"><li><a href="../magic/universal_disciplines.html"><strong aria-hidden="true">12.1.</strong> Universal Disciplines</a></li><li><a href="../magic/astral_disciplines.html"><strong aria-hidden="true">12.2.</strong> Astral Disciplines</a></li><li><a href="../magic/infernal_discplines.html"><strong aria-hidden="true">12.3.</strong> Infernal Discplines</a></li><li><a href="../magic/orphic_disciplines.html"><strong aria-hidden="true">12.4.</strong> Orphic Disciplines</a></li><li><a href="../magic/devotions.html"><strong aria-hidden="true">12.5.</strong> Devotions</a></li></ol></li><li><a href="../character_options_and_motivation.html"><strong aria-hidden="true">13.</strong> Character Options and Motivation</a></li><li><ol class="section"><li><a href="../character_options_and_motivations/resources_and_obligations.html"><strong aria-hidden="true">13.1.</strong> Resources and Obligations</a></li><li><a href="../character_options_and_motivations/motivations_&_passions.html"><strong aria-hidden="true">13.2.</strong> Motivations &amp; Passions</a></li><li><a href="../character_options_and_motivations/advantages_and_disadvantages.html"><strong aria-hidden="true">13.3.</strong> Advantages and Disadvantages</a></li><li><a href="../character_options_and_motivations/character_advancement.html"><strong aria-hidden="true">13.4.</strong> Character Advancement</a></li></ol></li><li><a href="../the_world_at_night.html"><strong aria-hidden="true">14.</strong> The World at Night</a></li><li><ol class="section"><li><a href="../the_world_at_night/mexico_city.html"><strong aria-hidden="true">14.1.</strong> Mexico City</a></li><li><a href="../the_world_at_night/houston.html"><strong aria-hidden="true">14.2.</strong> Houston</a></li><li><a href="../the_world_at_night/kuala_lumpur.html"><strong aria-hidden="true">14.3.</strong> Kuala Lumpur</a></li><li><a href="../the_world_at_night/new_york.html"><strong aria-hidden="true">14.4.</strong> New York</a></li><li><a href="../the_world_at_night/paris.html"><strong aria-hidden="true">14.5.</strong> Paris</a></li><li><a href="../the_world_at_night/prague.html"><strong aria-hidden="true">14.6.</strong> Prague</a></li><li><a href="../the_world_at_night/san_francisco.html"><strong aria-hidden="true">14.7.</strong> San Francisco</a></li></ol></li><li><a href="../persona_non_grata.html"><strong aria-hidden="true">15.</strong> Persona non Grata</a></li><li><ol class="section"><li><a href="../persona_non_grata/people.html"><strong aria-hidden="true">15.1.</strong> People</a></li><li><a href="../persona_non_grata/animals.html"><strong aria-hidden="true">15.2.</strong> Animals</a></li><li><a href="../persona_non_grata/places.html"><strong aria-hidden="true">15.3.</strong> Places</a></li><li><a href="../persona_non_grata/things.html"><strong aria-hidden="true">15.4.</strong> Things</a></li><li><a href="../persona_non_grata/standardizing_nonstandard_magic.html"><strong aria-hidden="true">15.5.</strong> Standardizing Nonstandard Magic</a></li><li><a href="../persona_non_grata/i_fought_the_law.html"><strong aria-hidden="true">15.6.</strong> I Fought The Law</a></li></ol></li><li><a href="../points_of_view.html"><strong aria-hidden="true">16.</strong> Points of View</a></li><li><ol class="section"><li><a href="../points_of_view/first_person.html"><strong aria-hidden="true">16.1.</strong> First Person</a></li><li><a href="../points_of_view/second_person.html"><strong aria-hidden="true">16.2.</strong> Second Person</a></li><li><a href="../points_of_view/third_person.html"><strong aria-hidden="true">16.3.</strong> Third Person</a></li><li><a href="../points_of_view/the_fourth_wall.html"><strong aria-hidden="true">16.4.</strong> The Fourth Wall</a></li></ol></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">After Sundown 1e</h1> 
+
+                        <div class="right-buttons">
+                            <a href="../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="#weaponry-and-hazards" id="weaponry-and-hazards"><h2>Weaponry and Hazards</h2></a>
+<p><em>&quot;Holy crap, that looks dangerous.&quot;</em></p>
+<a class="header" href="#weapon-traits" id="weapon-traits"><h3>Weapon Traits</h3></a>
+<a class="header" href="#strength" id="strength"><h4>Strength</h4></a>
+<p>The strength rating listed with weapons is the strength needed to use the weapon effectively in two hands. If the character's actual Strength exceeds that, they may use it without difficulty in one hand, unless it is Large or Huge in which case their strength must exceed that by 2 in order to use it successfully in one hand. If the strength value of the weapon exceeds the character's Strength, the threshold to strike a target is increased by the difference, in addition to needing two hands.</p>
+<a class="header" href="#size" id="size"><h4>Size</h4></a>
+<ul>
+<li>Small weapons can be concealed in a pocket</li>
+<li>Medium weapons can be concealed under a coat</li>
+<li>Large weapons can be concealed in a car</li>
+<li>Huge weapons do not really fit into cars</li>
+</ul>
+<a class="header" href="#ranged-weapons" id="ranged-weapons"><h3>Ranged Weapons</h3></a>
+<p>Ranged weapons are used with Agility + Combat. Each weapon is accurate out to a given range (in parenthesis) and also has a maximum range beyond which the weapon won't work at all. If the target is beyond your weapon's accurate range, increase the Threshold to hit by 1.</p>
+<table><thead><tr><th align="left"> Weapon </th><th align="center"> Damage </th><th align="center"> Range (Max) </th><th align="center"> Strength </th><th align="center"> Size </th></tr></thead><tbody>
+<tr><td align="left"> Light Pistol </td><td align="center"> 3 </td><td align="center"> N (S) </td><td align="center"> 1 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Heavy Pistol </td><td align="center"> 4 </td><td align="center"> N (W) </td><td align="center"> 2 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Machine Pistol </td><td align="center"> 3A </td><td align="center"> S (N) </td><td align="center"> 2 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Flare Gun </td><td align="center"> 1F </td><td align="center"> N (W) </td><td align="center"> 2 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Submachine Gun </td><td align="center"> 3A</td><td align="center"> S (W) </td><td align="center"> 2 </td><td align="center"> M </td></tr>
+<tr><td align="left"> Shotgun </td><td align="center"> 5 </td><td align="center"> N (S) </td><td align="center"> 3 </td><td align="center"> M </td></tr>
+<tr><td align="left"> Crossbow </td><td align="center"> 3 </td><td align="center"> S (W) </td><td align="center"> 2 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Rifle </td><td align="center"> 5 </td><td align="center"> W (E) </td><td align="center"> 3 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Assault Rifle </td><td align="center"> 4A </td><td align="center"> S (E) </td><td align="center"> 3 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Auto-Shotgun </td><td align="center"> 5A </td><td align="center"> N (S) </td><td align="center"> 4 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Machinegun </td><td align="center"> 6A </td><td align="center"> W (R) </td><td align="center"> 5 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Sniper Rifle </td><td align="center"> 6 </td><td align="center"> E (R) </td><td align="center"> 5 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Flame Thrower </td><td align="center"> 4FA </td><td align="center"> A (W<sup>C</sup>) </td><td align="center"> 5 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Cannon </td><td align="center"> 7 </td><td align="center"> W (R) </td><td align="center"> 8 </td><td align="center"> H </td></tr>
+</tbody></table>
+<p>A: Weapon fires in automatic mode.<br />
+C: Weapon ignores most cover.<br />
+F: Weapon does fire damage.<br /></p>
+<a class="header" href="#automatic-weapons" id="automatic-weapons"><h4>Automatic Weapons</h4></a>
+<p>A weapon firing on automatic throws out many bullets in a short period of time. This allows it to be used for suppressive fire, to be fired at multiple enemies who are close together, and makes it more likely to hit something. A weapon fired on automatic gains 3 dice on the attack roll, but the spread of bullets makes fine aiming more difficult - the increase in threshold for firing at enemies with cover is doubled (basic cover increases threshold by 2, heavy cover increases threshold by <em>4</em>). Also the character can't take the Aim action with an automatic weapon, but they can take the Spray-n-Pray action.</p>
+<a class="header" href="#bullets" id="bullets"><h4>Bullets</h4></a>
+<p>The amount of bullets fired off in genuine firefights is extremely varied and often frighteningly large. During a 12 second combat round, an assault rifle could easily fire 100 rounds or more (if it even had that many bullets in its magazine or belt-feed). Actually resolving where all of those bullets end up would be far too time consuming to consider doing in most battles. As such, the game doesn't really distinguish between characters squeezing off large numbers of bullets and characters taking hard seconds to line up their targets and fire devastating double-taps into a target's vitals. As such, the game also doesn't bother writing up exactly how many bullets weapons contain. During survival horror segments, ammunition conservation can (and should) be a major concern, but in regular street combat it shouldn't really come up.</p>
+<p>It is also important to note that while the game only models those bullets that have a significant chance of hitting their target, every bullet fired <em>eventually</em> hits <em>something</em>. Stray bullets do not individually hit people we care about often enough to have such events generated by any combination of numbers on the dice, relegating that very real possibility to the realm of plot devices. However, in cases where the target is very close to other targets that these other targets are very likely to catch a bullet one way or another. If the target is getting cover from a creature and the target is missed by just the difference caused by the cover, then you can assume that the living cover is hit. Similarly, if the target is in or in front of a dense crowd of people, <em>someone</em> is getting hit. Deciding <em>who</em> is left as a narrative exercise. In such situations, Extras catch stray bullets much more than Luminaries.</p>
+<a class="header" href="#special-ammunition" id="special-ammunition"><h4>Special Ammunition</h4></a>
+<p>Characters in After Sundown will often want to fire bullets that are specifically made of iron, wood, or silver. While these bullets have different characteristics than ones made of copper or lead, that's a level of detail that combat in After Sundown does not actually go to. Special ammunition exists that is generally more effective. Whether it's made out of depleted uranium or is special explosive ammunition or whatever, such exotic equipment increases the damage of the gun by 1, costs quite a bit, and puts a real strain on the character's claim to not be a military-grade super villain.</p>
+<p>Smooth bore weaponry such as shotguns can be loaded with grains of pretty much anything. Of special interest to characters in the realm of horror is that they can fill the shells with salt, sand, or live grain in order to suppress Astral, Infernal, or Orphic sorcery respectively. This is quite effective, and the character's Agility + Combat test can suppress magic out to the range of the weapon.</p>
+<a class="header" href="#silencers" id="silencers"><h4>Silencers</h4></a>
+<p>Weaponry enthusiasts will get mad at you for calling them &quot;silencers&quot; because they don't actually reduce the noise of firing a weapon to nothing or even the point of inaudibility. Nevertheless, the &quot;sound suppressor&quot; is called a &quot;silencer&quot; in ordinary conversation, so it is reasonable that characters in the game will refer to it (incorrectly) like that as well. Silencers reduce the sound of using the weapon substantially, to the point that its use will probably not be noticed on the other side of a wall, but this comes at a price. The weapon loses a lot of power, which reduces the Damage by 1 and reduces the accurate range by one category (for example: if you silence a light pistol it has a base damage of 1 and loses accuracy if fired at ranges beyond Adjacent). A silencer also falls apart with use. After more than five shots, a silencer is basically garbage.</p>
+<a class="header" href="#melee-weapons" id="melee-weapons"><h3>Melee Weapons</h3></a>
+<p>Melee weaponry differs from ranged weaponry primarily in that it simply goes as far as it will reach and therefore doesn't have a &quot;range&quot; value on the table. Many melee weapons inherently do Normal rather than Lethal damage, and their damage values are followed by an &quot;N&quot;. Unlike Ranged Weaponry, which is mostly designed for the purpose, a majority of things that people beat on each other with in hand to hand conflicts are actually improvised weapons - tools and household items that happen to be at hand when a fight breaks out.</p>
+<table><thead><tr><th> Weapon </th><th> Damage </th><th> Strength </th><th> Size </th></tr></thead><tbody>
+<tr><td align="left"> Fist </td><td align="center"> 0N </td><td align="center"> 0 </td><td align="center"> X </td></tr>
+<tr><td align="left"> Bottle </td><td align="center"> 1N </td><td align="center"> 1 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Knife </td><td align="center"> 2 </td><td align="center"> 1 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Hammer </td><td align="center"> 3 </td><td align="center"> 1 </td><td align="center"> S </td></tr>
+<tr><td align="left"> Baseball Bat </td><td align="center"> 2N </td><td align="center"> 2 </td><td align="center"> M </td></tr>
+<tr><td align="left"> Sword </td><td align="center"> 4</td><td align="center"> 2 </td><td align="center"> M </td></tr>
+<tr><td align="left"> Crowbar </td><td align="center"> 3 </td><td align="center"> 2 </td><td align="center"> M </td></tr>
+<tr><td align="left"> Chair </td><td align="center"> 2N </td><td align="center"> 3 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Axe </td><td align="center"> 4 </td><td align="center"> 3 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Chainsaw </td><td align="center"> 4 </td><td align="center"> 4 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Great Weapon </td><td align="center"> 5 </td><td align="center"> 4 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Sign Post </td><td align="center"> 5N </td><td align="center"> 5 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Fire Hydrant </td><td align="center"> 5 </td><td align="center"> 6 </td><td align="center"> L </td></tr>
+<tr><td align="left"> Lamp Post </td><td align="center"> 6N </td><td align="center"> 9 </td><td align="center"> H </td></tr>
+<tr><td align="left"> Car </td><td align="center"> 6N </td><td align="center"> 10 </td><td align="center"> H </td></tr>
+</tbody></table>
+<p>N: Weapon does Normal Damage.</p>
+<a class="header" href="#explosions" id="explosions"><h3>Explosions</h3></a>
+<p><em>&quot;Can we make an explosion explode?&quot;</em></p>
+<p>Sometimes things blow up, and in the movies things blow up even more. Even when we step outside the action genre, it is a recognized fact that objects in general in any media - including cooperative horror storytelling - are substantially more <em>explosive</em> than they are in real life. Explosions physically expand in roughly spherical paths (barring the use of shaped charges), and thus in a general sort of way an explosion can be expected to become weaker as per the square of the distance from the point of origin. Except of course it's actually much more complicated than that, because there's gravity and air resistance, and shrapnel pieces that fly a lot more like bullets, and so on. More massive shrapnel flies farther as it loses less power to air resistance, and compression waves pass through denser media better than air. And so on. Game mechanically this is abstracted out into an explosion's <em>Damage</em> (which is how much damage targets in the first area have to soak), and the same explosion's <em>Radius</em> (which is how far that area extends). An explosion does damage to targets that are outside its Radius, but substantially less. A target that is farther away from the explosion than the Radius takes 2 less damage if they are within the Radius <em>of</em> the Radius. And this continues until the Damage reaches zero. In effect, the explosion is modeled in the game as an onion where each band has a thickness of the Radius and does 2 less damage than the band before it. In a nod to the truly epic destruction caused by explosives that are actually adjacent to the target, an explosion will inflict 2 <em>extra</em> damage if the explosive is actually touching the target when it goes off.</p>
+<p>An Explosion isn't normally affected by net hits on an attack roll, and inflict precisely the same damage if they are thrown perfectly as if they are detonated when simply dropped and forgotten. An exception to that is if an explosion is specifically placed to cause maximum damage. A character's Logic + Sabotage check can increase the damage bonus for a point blank explosion. Explosions are affected strongly by cover, and their damage ratings are reduced by the coverage and its toughness. Explosions do not necessarily inflict fire damage, even though they do act by burning. Unless otherwise noted, the primary damage is flying shrapnel and concussive force. Explosives can be wrapped in silver, wood chips, or steel in order to make that shrapnel into something that is especially effective against certain supernatural creatures.</p>
+<table><thead><tr><th> Weapon </th><th> Damage </th><th> Radius </th><th> Size </th></tr></thead><tbody>
+<tr><td align="left"> Hand Grenade </td><td align="center"> 6 </td><td align="center"> 6m </td><td align="center"> S </td></tr>
+<tr><td align="left"> Concussion Grenade </td><td align="center"> 6N </td><td align="center"> 2m </td><td align="center"> S </td></tr>
+<tr><td align="left"> Plastic Explosive Charge </td><td align="center"> 8 </td><td align="center"> 50 cm </td><td align="center"> S </td></tr>
+<tr><td align="left"> Flashbang </td><td align="center"> 1 </td><td align="center"> 1m </td><td align="center"> S </td></tr>
+<tr><td align="left"> Land Mine </td><td align="center"> 3 </td><td align="center"> 1m </td><td align="center"> M </td></tr>
+<tr><td align="left"> Molotov Cocktail </td><td align="center"> 2F </td><td align="center"> 1m </td><td align="center"> M </td></tr>
+<tr><td align="left"> Car Gas Tank </td><td align="center"> 6F </td><td align="center"> 2m </td><td align="center"> L </td></tr>
+</tbody></table>
+<a class="header" href="#throwing-things" id="throwing-things"><h3>Throwing Things</h3></a>
+<p><em>As soon as the first ape threw their first rock, primates started being a threat to leopards instead of just the other way around.</em></p>
+<p>Characters will probably end up throwing a lot of stuff in an After Sundown campaign. Explosives, buckets of water, and even just plain chairs. It is well known that you can start a fight pretty much anywhere by throwing a chair in a crowd. When you're throwing something, you get bonuses to your attack roll if the thing is big. It is simply easier to connect with a target if you are throwing a whole car than if you are throwing a sharpened playing card. In general, a Small object (like a bottle or a hungamunga) provides +1 die, a medium object (like a tomahawk or a bucket of water) provides 2 extra dice, a large object (like a chair or a person) provides 4 extra dice, and a huge object (like a car or an altar) provides 6 extra dice. A character can throw things that they can lift but not effectively wield in melee because of their Strength being exceeded, but not very far. Such objects are only accurate out to Adjacent range and have a maximum range of Near. Items that the character can wield can be thrown out to Short Range</p>
+<p>Damage inflicted by thrown weapons is usually pretty disappointing. Unless it's designed as a throwing weapon (or randomly shaped like something that is such as a bowling ball), the base damage of such thrown items are only going to be 0 or 1, depending upon hardness, sharpness, and density. Any object that is thrown into someone that is too heavy for them to use will knock them down however. And if it's too heavy for them to lift, they may become trapped under it. So when a character throws a molotov cocktail at an opponent, the damage from throwing the bottle into them is usually pretty inconsequential. The whole &quot;catching on fire&quot; thing is pretty keen though.</p>
+<a class="header" href="#damage-over-time" id="damage-over-time"><h3>Damage Over Time</h3></a>
+<p><em>Are you still on fire? You should stop that eventually.</em></p>
+<p>When a character is soaked in acid, freezing to death, on fire, or otherwise subjected to a damaging situation that is ongoing, we call this DOT or Damage Over Time. While it <em>could</em> be modeled as a series of tiny attacks that had a remote chance of doing damage each second, that is far fiddlier than the people actually playing the game need to deal with. DOT damage is added one wound box at a time. A DOT effect has a &quot;delay&quot; number, and that number determines how much time passes between filling in one wound box and the next. When a DOT is introduced to a character, they may make a Resistance Test against it, and the hits on that test are <em>added</em> to the Delay Number rather than <em>subtracting</em> from the actual damage done. Being covered in acid for long enough is liable to be a problem for anyone. DOT's will continue filling in a wound box on schedule until they end. For external sources of damage, that generally means removing the noxious stimulus, while something like an injected poison usually has an amount of time it will persist based on how much was injected (this time could be cut shorter with things like antidotes or diuretics).</p>
+<table><thead><tr><th> Delay Number </th><th> Time Between Damage Boxes </th><th> Example DOT Source </th></tr></thead><tbody>
+<tr><td align="center"> 0 </td><td align="left"> 3 seconds (Each Initiative Pass) </td><td align="left"> Falling into hissing green goo </td></tr>
+<tr><td align="center"> 1 </td><td align="left"> 1 Round </td><td align="left"> Engulfed in billowing flames </td></tr>
+<tr><td align="center"> 2 </td><td align="left"> 2 Rounds </td><td align="left"> Unable to breathe </td></tr>
+<tr><td align="center"> 3 </td><td align="left"> 5 Rounds / 1 Minute </td><td align="left"> Bitten by deadly serpent </td></tr>
+<tr><td align="center"> 4 </td><td align="left"> 2 Minutes </td><td align="left"> Exposed to killer frost </td></tr>
+<tr><td align="center"> 5 </td><td align="left"> 5 Minutes </td><td align="left"> Inhaling noxious smoke </td></tr>
+<tr><td align="center"> 6 </td><td align="left"> 15 Minutes </td><td align="left"> Watching an M. Night Shyamalan movie </td></tr>
+<tr><td align="center"> 7 </td><td align="left"> 30 Minutes </td><td align="left"> Staring at a glowing radioactive rock </td></tr>
+<tr><td align="center"> 8 </td><td align="left"> 1 Hour </td><td align="left"> Inadequate protection from brutal cold </td></tr>
+<tr><td align="center"> 9+ </td><td align="left"> Double Time </td><td align="left"> Each Additional Delay Number (4 Hours, 8 hours, 16 Hours, etc...) </td></tr>
+</tbody></table>
+<a class="header" href="#other-hazards" id="other-hazards"><h3>Other Hazards</h3></a>
+<p><em>Don't touch that. Or that either.</em></p>
+<a class="header" href="#falling" id="falling"><h4>Falling</h4></a>
+<p>Characters will fall from time to time. And falling substantial distances actually can take quite an amount of time. However, in a 12 second combat round a character could fall over 600 meters - so for practical purposes it's usually best to simply have characters hit the ground after having just one Simple Action to try to do something about their situation. It is also true that &quot;The bigger they are, the harder they fall.&quot; That's not just a trite saying that He Man gives before tripping giant robots, it's physical reality. Larger creatures have more mass proportional to their surface area and accelerate at the same speed, truly mice and ants can survive being dropped from any height and elephants can't even jump without breaking their bones on the way down. Game mechanically this truth is handled by preventing characters from using Strength or Armor to soak falling damage, and by having larger creatures take additional damage from falls. Characters can soak damage from falls by performing Agility + Athletics stunts with a threshold of 1 (net hits soak damage, but the first hit does not). Magical benefits for soaking damage do apply (as they make the character tougher relative to their mass rather than adding additional mass), so a character gains the benefits of Fortitude.</p>
+<p>If the character falls onto a hard or sharp surface, increase damage by 1 or more. If the falling creature is large, increase the damage by 1 or more. If the falling creature is small, reduce the damage by 1 or more.</p>
+<table><thead><tr><th> Distance </th><th> Damage </th></tr></thead><tbody>
+<tr><td align="left"> Petty (0-2m) </td><td align="center"> 1N </td></tr>
+<tr><td align="left"> Ordinary (3-4m) </td><td align="center"> 2N </td></tr>
+<tr><td align="left"> Serious (5-6m) </td><td align="center"> 3 </td></tr>
+<tr><td align="left"> Incapacitating (7-10m) </td><td align="center"> 4 </td></tr>
+<tr><td align="left"> Terminal (11+m) </td><td align="center"> 5 </td></tr>
+</tbody></table>
+<a class="header" href="#electrocution" id="electrocution"><h4>Electrocution</h4></a>
+<p>Electricity damage is something of a paradox. Electricity flows through the path of least resistance, and it inflicts damage based on the resistance of the path it flows through. Thus, you can defend yourself from electricity by covering yourself in high resistance insulation (because it will redirect electricity away from your body to another path) <em>or</em> by covering yourself with low resistance conductive mesh (because it will <em>create</em> a preferred path through the mesh and away from your organs). From the standpoint of the game, a character who is protected by especially conductive or non-conductive material is <em>immune</em> to electrical shocks. Electricity is inherently unpredictable, whenever someone is electrocuted, roll a die - if it comes up a hit, increase the Damage by 1. Net hits on attacks with electrical outputs are not added to the damage of an electric shock.</p>
+<table><thead><tr><th> Shock </th><th> Damage </th></tr></thead><tbody>
+<tr><td align="left"> Ordinary (Wall Socket) </td><td align="center"> 2N </td></tr>
+<tr><td align="left"> Serious (Electric Fence) </td><td align="center"> 3N </td></tr>
+<tr><td align="left"> Incapacitating (High Powered Taser) </td><td align="center"> 4N </td></tr>
+<tr><td align="left"> Terminal (Lightning Strike) </td><td align="center"> 5 </td></tr>
+</tbody></table>
+<a class="header" href="#poison" id="poison"><h3>Poison</h3></a>
+<p>Poison has a progressive effect that affects the target more as time goes on. Functionally this means that poison is <em>much slower</em> than bullets or chainsaws. The way this is handled is as a DOT. However, not all poisons inflict actual damage, many come with special effects in addition to or instead of filling in wound boxes. Poisons normally only accumulate effects for a certain amount of time based on the original dose. When a victim is exposed to additional doses before the first has run its course, use the current timer for how long the poison will last and reduce the Delay by 1 if the timer is less than half over, or leave the Delay number alone and reset the termination timer if it has run more than half of its course. Characters with Patience of the Mountains or Tongue of the Serpent are immune to poisons. If a character is given anti-venom or some similar treatment, the character gains additional resistance dice to increase the Delay and/or the termination counter is reduced in length (depending on whether it works by clearing the chemical from the victim's system or neutralizing the effects). Note that the dosages are all the &quot;normal&quot; dosages, which for &quot;recreational&quot; poisons (like street drugs) are actually very small. Poisons my be more or less effective if administered by another route (injecting pepper spray would be all kinds of fatal). The assumption is that street drugs are being snorted unless otherwise indicated. The secondary effects of a poison kick in as soon as one damage box is filled in (or would be filled in for non damaging poisons), and end when the Timer runs out. Damage, whether Normal or Lethal, remains until healed.</p>
+<table><thead><tr><th align="left"> Poison </th><th align="left"> Delay </th><th> Timer </th><th> Notes </th></tr></thead><tbody>
+<tr><td align="left"> Tear Gas </td><td align="center"> 2N </td><td align="left"> 5 rounds </td><td align="left"> Provides a &quot;dose&quot; for each round of exposure. </td></tr>
+<tr><td align="left"> Pepper Spray </td><td align="center"> 0N </td><td align="left"> 2 rounds </td><td align="left">  </td></tr>
+<tr><td align="left"> Tranq Dart </td><td align="center"> 0N </td><td align="left"> 3 rounds </td><td align="left"> Fatigue </td></tr>
+<tr><td align="left"> Rat Poison </td><td align="center"> 5 </td><td align="left"> 1 hour </td><td align="left"> Ingested. </td></tr>
+<tr><td align="left"> Uranium </td><td align="center"> 18 </td><td align="left"> 3 Months </td><td align="left"> Provides a &quot;dose&quot; for each five minutes of exposure. </td></tr>
+<tr><td align="left"> &quot;Euphoric&quot; </td><td align="center"> 2* </td><td align="left"> 1 Hour </td><td align="left"> Amnesia and Overstimulation </td></tr>
+<tr><td align="left"> &quot;Hallucinogenic&quot; </td><td align="center"> 2* </td><td align="left"> 6 Hours </td><td align="left"> Amnesia and Delusion </td></tr>
+<tr><td align="left"> &quot;Paralytic&quot; </td><td align="center"> 0* </td><td align="left"> 10 Minutes </td><td align="left"> Paralysis </td></tr>
+<tr><td align="left"> &quot;Soporific&quot; </td><td align="center"> 1* </td><td align="left"> 1 Hour </td><td align="left"> Sleep </td></tr>
+<tr><td align="left"> &quot;Toxic&quot; </td><td align="center"> 0 </td><td align="left"> 10 Rounds </td><td align="left"> Agony </td></tr>
+<tr><td align="left"> Meth </td><td align="center"> 3* </td><td align="left"> 4 Hours </td><td align="left"> Stimulation and Overstimulation </td></tr>
+<tr><td align="left"> Opium </td><td align="center"> 7N </td><td align="left"> 3 Hours </td><td align="left"> Anesthetic and Fatigue </td></tr>
+<tr><td align="left"> Cocaine </td><td align="center"> 5* </td><td align="left"> 20 Minutes </td><td align="left"> Anesthetic and Delusion </td></tr>
+<tr><td align="left"> Alcohol </td><td align="center"> 9N </td><td align="left"> 1 Hour </td><td align="left"> Ingested. Repeated dosing can cause Amnesia, Anesthetic, or Delusion </td></tr>
+</tbody></table>
+<p>* This Poison doesn't actually do any damage, the damage level is just there so that secondary effects occur. At the MC's option, overdoses may still be fatal if the virtual damage level rises to Terminal.</p>
+<p>Poisons in Quotes are the magical poisons available with Tongue of the Serpent. The damage level may at the character's option be increased by the character's Potency.</p>
+<p>When a Poison has a secondary effect, that effect generally lasts for 10 minutes to an hour.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../danger/attacking.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../danger/armor.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../danger/attacking.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../danger/armor.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Character Generation - After Sundown 1e</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop RPG in a world of monsters and horror.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">var path_to_root = "../";</script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li class="affix"><a href="../introduction.html">Introduction</a></li><li class="affix"><a href="../terrible_places_and_people.html">Terrible Places and People</a></li><li><a href="../terrible_places_and_people/maya.html"><strong aria-hidden="true">1.</strong> Maya</a></li><li><a href="../terrible_places_and_people/limbo.html"><strong aria-hidden="true">2.</strong> Limbo</a></li><li><a href="../terrible_places_and_people/mictlan.html"><strong aria-hidden="true">3.</strong> Mictlan</a></li><li><a href="../terrible_places_and_people/being_in_between_worlds.html"><strong aria-hidden="true">4.</strong> Being In Between Worlds</a></li><li><a href="../terrible_places_and_people/terrible_people.html"><strong aria-hidden="true">5.</strong> Terrible People</a></li><li><a href="../running_the_game.html"><strong aria-hidden="true">6.</strong> Running The Game</a></li><li><ol class="section"><li><a href="../running_the_game/basic_dice_mechanics.html"><strong aria-hidden="true">6.1.</strong> Basic Dice Mechanics</a></li><li><a href="../running_the_game/character_generation.html" class="active"><strong aria-hidden="true">6.2.</strong> Character Generation</a></li><li><a href="../running_the_game/advancing_goals.html"><strong aria-hidden="true">6.3.</strong> Advancing Goals</a></li><li><a href="../running_the_game/jobs,_missions,_and_quests.html"><strong aria-hidden="true">6.4.</strong> Jobs, Missions, and Quests</a></li><li><a href="../running_the_game/placing_opposition.html"><strong aria-hidden="true">6.5.</strong> Placing Opposition</a></li></ol></li><li><a href="../monstrous_society.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li><a href="../monstrous_society/bands.html"><strong aria-hidden="true">7.1.</strong> Bands</a></li><li><a href="../monstrous_society/syndicates.html"><strong aria-hidden="true">7.2.</strong> Syndicates</a></li><li><a href="../monstrous_society/cults.html"><strong aria-hidden="true">7.3.</strong> Cults</a></li><li><a href="../monstrous_society/antagonistic_organizations.html"><strong aria-hidden="true">7.4.</strong> Antagonistic Organizations</a></li><li><a href="../monstrous_society/political_aspirations.html"><strong aria-hidden="true">7.5.</strong> Political Aspirations</a></li></ol></li><li><a href="../skills.html"><strong aria-hidden="true">8.</strong> Skills</a></li><li><ol class="section"><li><a href="../skills/physical_skills.html"><strong aria-hidden="true">8.1.</strong> Physical Skills</a></li><li><a href="../skills/social_skills.html"><strong aria-hidden="true">8.2.</strong> Social Skills</a></li><li><a href="../skills/technical_skills.html"><strong aria-hidden="true">8.3.</strong> Technical Skills</a></li><li><a href="../skills/specializations.html"><strong aria-hidden="true">8.4.</strong> Specializations</a></li><li><a href="../skills/backgrounds.html"><strong aria-hidden="true">8.5.</strong> Backgrounds</a></li><li><a href="../skills/using_skills.html"><strong aria-hidden="true">8.6.</strong> Using Skills</a></li><li><a href="../skills/using_attributes_without_skills.html"><strong aria-hidden="true">8.7.</strong> Using Attributes Without Skills</a></li></ol></li><li><a href="../getting_what_you_need.html"><strong aria-hidden="true">9.</strong> Getting What You Need</a></li><li><ol class="section"><li><a href="../getting_what_you_need/keeping_things_quiet.html"><strong aria-hidden="true">9.1.</strong> Keeping Things Quiet</a></li><li><a href="../getting_what_you_need/asking_around_montages.html"><strong aria-hidden="true">9.2.</strong> Asking Around: Montages</a></li><li><a href="../getting_what_you_need/interviewing_people.html"><strong aria-hidden="true">9.3.</strong> Interviewing People</a></li><li><a href="../getting_what_you_need/persuasive_argumentation.html"><strong aria-hidden="true">9.4.</strong> Persuasive Argumentation</a></li><li><a href="../getting_what_you_need/arguments_from_rhetoric.html"><strong aria-hidden="true">9.5.</strong> Arguments From Rhetoric</a></li></ol></li><li><a href="../danger.html"><strong aria-hidden="true">10.</strong> Danger</a></li><li><ol class="section"><li><a href="../danger/moving,_evading,_and_escaping.html"><strong aria-hidden="true">10.1.</strong> Moving, Evading, and Escaping</a></li><li><a href="../danger/attacking.html"><strong aria-hidden="true">10.2.</strong> Attacking</a></li><li><a href="../danger/weaponry_and_hazards.html"><strong aria-hidden="true">10.3.</strong> Weaponry and Hazards</a></li><li><a href="../danger/armor.html"><strong aria-hidden="true">10.4.</strong> Armor</a></li><li><a href="../danger/wounds.html"><strong aria-hidden="true">10.5.</strong> Wounds</a></li><li><a href="../danger/healing_and_death.html"><strong aria-hidden="true">10.6.</strong> Healing and Death</a></li><li><a href="../danger/temporary_conditions.html"><strong aria-hidden="true">10.7.</strong> Temporary Conditions</a></li><li><a href="../danger/wind_and_water.html"><strong aria-hidden="true">10.8.</strong> Wind and Water</a></li></ol></li><li><a href="../monsters.html"><strong aria-hidden="true">11.</strong> Monsters</a></li><li><ol class="section"><li><a href="../monsters/lycanthropy.html"><strong aria-hidden="true">11.1.</strong> Lycanthropy</a></li><li><a href="../monsters/vampirism.html"><strong aria-hidden="true">11.2.</strong> Vampirism</a></li><li><a href="../monsters/witchcraft.html"><strong aria-hidden="true">11.3.</strong> Witchcraft</a></li><li><a href="../monsters/animates.html"><strong aria-hidden="true">11.4.</strong> Animates</a></li><li><a href="../monsters/leviathans.html"><strong aria-hidden="true">11.5.</strong> Leviathans</a></li><li><a href="../monsters/transhumans.html"><strong aria-hidden="true">11.6.</strong> Transhumans</a></li><li><a href="../monsters/zombies.html"><strong aria-hidden="true">11.7.</strong> Zombies</a></li><li><a href="../monsters/fey.html"><strong aria-hidden="true">11.8.</strong> Fey</a></li><li><a href="../monsters/giant_animals.html"><strong aria-hidden="true">11.9.</strong> Giant Animals</a></li><li><a href="../monsters/ghosts.html"><strong aria-hidden="true">11.10.</strong> Ghosts</a></li><li><a href="../monsters/demons.html"><strong aria-hidden="true">11.11.</strong> Demons</a></li><li><a href="../monsters/evil_plants.html"><strong aria-hidden="true">11.12.</strong> Evil Plants</a></li><li><a href="../monsters/spawn_monsters.html"><strong aria-hidden="true">11.13.</strong> Spawn Monsters</a></li></ol></li><li><a href="../magic.html"><strong aria-hidden="true">12.</strong> Magic</a></li><li><ol class="section"><li><a href="../magic/universal_disciplines.html"><strong aria-hidden="true">12.1.</strong> Universal Disciplines</a></li><li><a href="../magic/astral_disciplines.html"><strong aria-hidden="true">12.2.</strong> Astral Disciplines</a></li><li><a href="../magic/infernal_discplines.html"><strong aria-hidden="true">12.3.</strong> Infernal Discplines</a></li><li><a href="../magic/orphic_disciplines.html"><strong aria-hidden="true">12.4.</strong> Orphic Disciplines</a></li><li><a href="../magic/devotions.html"><strong aria-hidden="true">12.5.</strong> Devotions</a></li></ol></li><li><a href="../character_options_and_motivation.html"><strong aria-hidden="true">13.</strong> Character Options and Motivation</a></li><li><ol class="section"><li><a href="../character_options_and_motivations/resources_and_obligations.html"><strong aria-hidden="true">13.1.</strong> Resources and Obligations</a></li><li><a href="../character_options_and_motivations/motivations_&_passions.html"><strong aria-hidden="true">13.2.</strong> Motivations &amp; Passions</a></li><li><a href="../character_options_and_motivations/advantages_and_disadvantages.html"><strong aria-hidden="true">13.3.</strong> Advantages and Disadvantages</a></li><li><a href="../character_options_and_motivations/character_advancement.html"><strong aria-hidden="true">13.4.</strong> Character Advancement</a></li></ol></li><li><a href="../the_world_at_night.html"><strong aria-hidden="true">14.</strong> The World at Night</a></li><li><ol class="section"><li><a href="../the_world_at_night/mexico_city.html"><strong aria-hidden="true">14.1.</strong> Mexico City</a></li><li><a href="../the_world_at_night/houston.html"><strong aria-hidden="true">14.2.</strong> Houston</a></li><li><a href="../the_world_at_night/kuala_lumpur.html"><strong aria-hidden="true">14.3.</strong> Kuala Lumpur</a></li><li><a href="../the_world_at_night/new_york.html"><strong aria-hidden="true">14.4.</strong> New York</a></li><li><a href="../the_world_at_night/paris.html"><strong aria-hidden="true">14.5.</strong> Paris</a></li><li><a href="../the_world_at_night/prague.html"><strong aria-hidden="true">14.6.</strong> Prague</a></li><li><a href="../the_world_at_night/san_francisco.html"><strong aria-hidden="true">14.7.</strong> San Francisco</a></li></ol></li><li><a href="../persona_non_grata.html"><strong aria-hidden="true">15.</strong> Persona non Grata</a></li><li><ol class="section"><li><a href="../persona_non_grata/people.html"><strong aria-hidden="true">15.1.</strong> People</a></li><li><a href="../persona_non_grata/animals.html"><strong aria-hidden="true">15.2.</strong> Animals</a></li><li><a href="../persona_non_grata/places.html"><strong aria-hidden="true">15.3.</strong> Places</a></li><li><a href="../persona_non_grata/things.html"><strong aria-hidden="true">15.4.</strong> Things</a></li><li><a href="../persona_non_grata/standardizing_nonstandard_magic.html"><strong aria-hidden="true">15.5.</strong> Standardizing Nonstandard Magic</a></li><li><a href="../persona_non_grata/i_fought_the_law.html"><strong aria-hidden="true">15.6.</strong> I Fought The Law</a></li></ol></li><li><a href="../points_of_view.html"><strong aria-hidden="true">16.</strong> Points of View</a></li><li><ol class="section"><li><a href="../points_of_view/first_person.html"><strong aria-hidden="true">16.1.</strong> First Person</a></li><li><a href="../points_of_view/second_person.html"><strong aria-hidden="true">16.2.</strong> Second Person</a></li><li><a href="../points_of_view/third_person.html"><strong aria-hidden="true">16.3.</strong> Third Person</a></li><li><a href="../points_of_view/the_fourth_wall.html"><strong aria-hidden="true">16.4.</strong> The Fourth Wall</a></li></ol></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">After Sundown 1e</h1> 
+
+                        <div class="right-buttons">
+                            <a href="../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="#character-generation" id="character-generation"><h2>Character Generation</h2></a>
+<p><em>Scene opens on a ringing cellular phone. Camera pans back to reveal...</em></p>
+<p>Characters in After Sundown run the gamut of power. Normal human extras are slaughtered in groups by monsters run amok in the fine tradition of slasher movies the world over. And yet even those monsters live in terror of even larger monsters from the ancient past. It can best be thought of in terms of regular horror movies going on simultaneously with the events from <a href="http://www.imdb.com/title/tt0167190/">Hellboy</a> or <a href="http://www.imdb.com/title/tt0238546/">Queen of the Damned</a>. The Characters are created at a point just before the story starts. And thus, the point where the characters begin is dependent upon what kind of story is being told:</p>
+<ul>
+<li><strong>The Origin Story:</strong> The characters begin with little or no knowledge of the supernatural as human Luminaries. Over the course of the story they discover magical powers within themselves, attain magical powers, or simply come into conflict with supernatural agents.</li>
+<li><strong>The In Medias Res Adventure:</strong> The characters begin having already been supernatural creatures for some time. They have come to terms with what they are, they have made social connections amongst other supernatural creatures, and they are already members of supernatural organizations.</li>
+<li><strong>The Power Fantasy:</strong> The characters begin already powerful within the context of supernatural society. Each character is a thing to be feared, whose name is uttered in whispered tones by creatures who themselves inspire fear in mortal hearts.</li>
+</ul>
+<p>Regardless of what kind of story is being told, remember that it is going to be an ensemble cast with each player's character being one of the story driving protagonists. Each character thus should have interests and goals that drive the plot forward, not just passive interests or reactive interests. It's fine for a character to be a doctor or a police officer, but they can't just be a passive observer waiting for people to get sick or cars to be reported stolen. A character worth playing thus needs to have a goal that they can work towards when there <em>isn't</em> a fire to be put out. It's fine to play a character who can heal others, but the character <em>needs</em> a hook that can get them motivated to pursue goals and advance the plot when there isn't anyone injured in their presence.</p>
+<a class="header" href="#characters-for-an-origin-story" id="characters-for-an-origin-story"><h3>Characters for an Origin Story</h3></a>
+<p><em>Don't be silly, there's no such thing as vampires.</em></p>
+<p>In an Origin Story, the characters are, or at least <em>believe themselves</em> to be mortal humans. As such, the player creates their character as if they were a mortal human Luminary. Generally over the course of the story, the player characters will be embraced by vampires, mauled by werewolves, or even discover that their memories of growing up in Indiana are digital imprints and they've been a robot the entire time. But becoming cursed with magic powers or discovering that they have had them all along is something that doesn't happen until after character generation. This makes characters who are substantially better than normal humans and makes sure that they have a diverse set of competencies. They <em>are</em> the Protagonists, after all.</p>
+<a class="header" href="#attributes" id="attributes"><h4>Attributes</h4></a>
+<p>All of a character's attributes start at 1. The player then prioritizes their Physical, Mental, and Social attributes, distributing 1 point to one pair, 3 points to another pair and 5 points to the last pair. Then they get 2 additional points that they can place anywhere they want. An individual attribute cannot be higher than 6 on character creation.
+Luminaries begin the game with an Edge of 3.</p>
+<a class="header" href="#active-skills" id="active-skills"><h4>Active Skills</h4></a>
+<p>A character's Active Skills start at zero. The player then prioritizes their Physical, Social, and Technical skills, distributing 11 points to one set, 16 points to the next set, and 21 points to the last set. Then they get 6 points they can place anywhere they want. An individual skill cannot be higher than 6 on character creation. The character then chooses three skill specializations. Remember that they also gain a specialization for each Technical skill they have trained.</p>
+<a class="header" href="#backgrounds" id="backgrounds"><h4>Backgrounds</h4></a>
+<p>A character starts with 27 points of Backgrounds. No Background can start higher than rating 6. An important thing to note is that a character in an Origin Story has a job, some social networks and maybe a family. They almost certainly <em>don't</em> have Backgrounds like &quot;Makhzen Society&quot; or &quot;Black Spot Ethos.&quot;</p>
+<a class="header" href="#resources" id="resources"><h4>Resources</h4></a>
+<p>The player chooses one 3-point Resource, one 2-point Resource, and one 1-point Resource. At the MC's discretion, a player may be able to buy more Resources with Obligations. Mortal humans are not normally able to take Destiny or Secrets.</p>
+<a class="header" href="#motivations" id="motivations"><h4>Motivations</h4></a>
+<p>Human characters do not normally have Master Passions. However, they still do have Driving Passions and Ethical Taboos. So the player should define some for their character. The player should really think about what their character wants, and what their character is willing to do to get what they want.</p>
+<a class="header" href="#advantages-and-disadvantages" id="advantages-and-disadvantages"><h4>Advantages and Disadvantages</h4></a>
+<p>Characters can have Advantages and Disadvantages, but the number of the one should equal the number of the other.</p>
+<a class="header" href="#magical-transformation" id="magical-transformation"><h4>Magical Transformation</h4></a>
+<p>Sometimes players will want to skip the portion of body horror that goes with actually transforming into a supernatural creature. In these cases the characters can have their transformations already applied, and then tell the origin story of the characters being introduced to supernatural society.</p>
+<a class="header" href="#characters-for-an-in-medias-res-story" id="characters-for-an-in-medias-res-story"><h3>Characters for an In Medias Res story</h3></a>
+<p><em>Whether you like it or not, you're in the middle of a war that has been raging for the better part of a thousand years.</em></p>
+<p>In Medias Res is the storytelling technique of beginning the narration in the middle of the action. It can be exciting and engrossing, and can lead to greater audience attention, especially if the origin story is somewhat tangential to the primary events of the story. Sometimes the story will go back in flashbacks to produce the past events that led to the circumstances with which the story began like in <a href="http://www.imdb.com/title/tt0110912/">Pulp Fiction</a> or <a href="http://www.imdb.com/title/tt0209144/">Memento</a>, and other times the action will simply continue towards conclusion like <a href="http://www.imdb.com/title/tt0240772/">Ocean's Eleven</a> or <a href="http://www.imdb.com/title/tt0120188/">Three Kings</a>. In any case, those are all solid pieces of In Medias Res storytelling and you should watch those movies if you haven't already.</p>
+<p>Characters for an In Medias Res story begin with all the introductions to supernatural society well out of the way. They are already known by and cognizant of the major Syndicates and they already have membership in a cult (if they want one) and have come to an understanding of the basic score of the horror-inspired world they live (or at least persist) in. They are supernatural creatures themselves, and have been that way for long enough that neither using their powers nor seeing others use their powers actually surprises them any more. An In Medias Res story is a good place to start for groups that want to tell stories about events <em>in</em> the realm of horror rather than ones exploring their characters' reactions <em>to</em> the realm of horror, and as such it is considered the default game.</p>
+<a class="header" href="#attributes-1" id="attributes-1"><h4>Attributes</h4></a>
+<p>All of a character's attributes start at 1. The player then prioritizes their Physical, Mental, and Social attributes, distributing 2 points to one pair, 4 points to another pair and 5 points to the last pair. Then they get 3 additional points that they can place anywhere they want. An individual attribute cannot be higher than 7 on character creation.
+Luminaries begin the game with an Edge of 3.</p>
+<a class="header" href="#active-skills-1" id="active-skills-1"><h4>Active Skills</h4></a>
+<p>A character's Active Skills start at zero. The player then prioritizes their Physical, Social, and Technical skills, distributing 14 points to one set, 19 points to the second set, and 24 points to the last set. Then they get 6 points they can place anywhere they want. An individual skill cannot be higher than 6 on character creation. The character then chooses four skill specializations. Remember that they also gain a specialization for each Technical skill they have trained.</p>
+<a class="header" href="#backgrounds-1" id="backgrounds-1"><h4>Backgrounds</h4></a>
+<p>A character starts with 35 points of Backgrounds. No Background can start higher than rating 6. It is entirely reasonable for a character to have been out of mortal society long enough that they don't have any &quot;Corporate Culture&quot; or &quot;Service Work&quot; type Backgrounds. On the other hand, it's equally plausible for such a character to have been keeping up appearances in the mortal world (or even being involved in mortal affairs when the story begins) and thus have such Backgrounds. Mixing characters who don't know how to handle themselves in a 7-11 with streetwise modernists in the same Band can be a good roleplaying hook.</p>
+<a class="header" href="#resources-1" id="resources-1"><h4>Resources</h4></a>
+<p>The player chooses one 3-point Resource, two 2-point Resources, and one 1-point Resource. The player must take an Obligation of rating 3 or less, but they get to buy an extra Resource for taking that Obligation as normal. At the MC's discretion, a player may be able to buy more Resources with more Obligations. Some characters will have retreated entirely from the mortal world or have been out of circulation long enough as to make no difference. As such, it is entirely possible that the character has no access to Resources in &quot;mortal life&quot; at all. It's not weird for characters to begin an In Medias Res story living in a cardboard box in an alley with no job or registration in government documents.</p>
+<a class="header" href="#motivations-1" id="motivations-1"><h4>Motivations</h4></a>
+<p>The character in an In Medias Res story presumably has a Master Passion. If it's not the same as the default one for their supernatural type, there should be a good in-character reason for that. While they are supernatural and non-human, they should presumably still have Driving Passions and Ethical Taboos. So the player should define some for their character. The player should really think about what their character wants, and what their character is willing to do to get what they want.</p>
+<a class="header" href="#advantages-and-disadvantages-1" id="advantages-and-disadvantages-1"><h4>Advantages and Disadvantages</h4></a>
+<p>Characters can have Advantages and Disadvantages, but the number of the one should equal the number of the other.</p>
+<a class="header" href="#magical-transformation-1" id="magical-transformation-1"><h4>Magical Transformation</h4></a>
+<p>Characters in an In Medias Res game have been supernatural for some time and have developed some tricks that are their own in addition to having a mastery of their form and the basic powers that come with it. The character has the 6 Basic and 2 Advanced disciplines common to their type, and have developed 2 Basic Disciplines and an Advanced Discipline that are theirs. In addition, the character knows one Basic or Advanced Discipline that must be from a Universal Discipline or the Sorcery that their Cult (if any) specializes in. The character has a Potency of 1 and therefore a Power Reserve of 13.</p>
+<a class="header" href="#place-in-the-worlds" id="place-in-the-worlds"><h4>Place in the Worlds</h4></a>
+<p>The character is <em>involved</em> with Supernatural Society. They already are a citizen of one Syndicate or another (this need not be the dominant Syndicate in the city the story begins in, the character could easily have spent formative years elsewhere or under the tutelage of another who was). If the player wishes their character to be a member of one Cult or another, they can simply declare that on character generation.</p>
+<p>Sometimes players will want to play &quot;monster hunters&quot; rather than supernatural creatures. For an In Medias Res story about Van Helsings, Watchers, and Whistlers, it is plausible to begin the story where the characters are <em>not</em> magical creatures and are instead badass human Luminaries fighting <em>against</em> the supernatural monsters of the week. In such a case the characters don't start with a supernatural type or any disciplines, but they still may well have Resources and Backgrounds dealing with the occult because in an In Medias Res story, the hunters have already done this sort of thing at some point in the past. Hunters get an Edge of 4 and an increase of two other Attributes of their choice. However, they have no Potency stat, so their attribute maximums are still 6.</p>
+<a class="header" href="#the-power-fantasy" id="the-power-fantasy"><h3>The Power Fantasy</h3></a>
+<p><em>I will crush you</em></p>
+<p>Characters in a Power Fantasy game have the strength to throw their weight around and challenge other powerful creatures in personal conflicts. There are unfortunately no firm guidelines that can be given to what marks a good Power Fantasy Character. A chronicle where the characters are expected to ultimately square off against some wicked Ifrit may well have characters come in with a Potency of 2, while a chronicle where the characters were ultimately going to be up against The King with Three Shadows would expect characters with a Potency of 6 or even 7.</p>
+<p>The important consideration is that characters in a Power Fantasy game should have roughly <em>equal</em> bonuses. Although it is important to note that characters in such a game will be expected to be more divergent in capabilities. The nature of the dicepool system means that specialists in any field will roll more extra dice in their specialty than the other characters do than in an Origin Story or In Medias Res game. It can lend the air of a game of rocket launcher tag in Doom or Unreal. Which for a game where things are supposed to feel powerful is fine.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../running_the_game/basic_dice_mechanics.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../running_the_game/advancing_goals.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../running_the_game/basic_dice_mechanics.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../running_the_game/advancing_goals.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

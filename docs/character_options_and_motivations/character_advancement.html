@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Character Advancement - After Sundown 1e</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="A tabletop RPG in a world of monsters and horror.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body class="light">
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">var path_to_root = "../";</script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme + ' js';
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li class="affix"><a href="../introduction.html">Introduction</a></li><li class="affix"><a href="../terrible_places_and_people.html">Terrible Places and People</a></li><li><a href="../terrible_places_and_people/maya.html"><strong aria-hidden="true">1.</strong> Maya</a></li><li><a href="../terrible_places_and_people/limbo.html"><strong aria-hidden="true">2.</strong> Limbo</a></li><li><a href="../terrible_places_and_people/mictlan.html"><strong aria-hidden="true">3.</strong> Mictlan</a></li><li><a href="../terrible_places_and_people/being_in_between_worlds.html"><strong aria-hidden="true">4.</strong> Being In Between Worlds</a></li><li><a href="../terrible_places_and_people/terrible_people.html"><strong aria-hidden="true">5.</strong> Terrible People</a></li><li><a href="../running_the_game.html"><strong aria-hidden="true">6.</strong> Running The Game</a></li><li><ol class="section"><li><a href="../running_the_game/basic_dice_mechanics.html"><strong aria-hidden="true">6.1.</strong> Basic Dice Mechanics</a></li><li><a href="../running_the_game/character_generation.html"><strong aria-hidden="true">6.2.</strong> Character Generation</a></li><li><a href="../running_the_game/advancing_goals.html"><strong aria-hidden="true">6.3.</strong> Advancing Goals</a></li><li><a href="../running_the_game/jobs,_missions,_and_quests.html"><strong aria-hidden="true">6.4.</strong> Jobs, Missions, and Quests</a></li><li><a href="../running_the_game/placing_opposition.html"><strong aria-hidden="true">6.5.</strong> Placing Opposition</a></li></ol></li><li><a href="../monstrous_society.html"><strong aria-hidden="true">7.</strong> Monstrous Society</a></li><li><ol class="section"><li><a href="../monstrous_society/bands.html"><strong aria-hidden="true">7.1.</strong> Bands</a></li><li><a href="../monstrous_society/syndicates.html"><strong aria-hidden="true">7.2.</strong> Syndicates</a></li><li><a href="../monstrous_society/cults.html"><strong aria-hidden="true">7.3.</strong> Cults</a></li><li><a href="../monstrous_society/antagonistic_organizations.html"><strong aria-hidden="true">7.4.</strong> Antagonistic Organizations</a></li><li><a href="../monstrous_society/political_aspirations.html"><strong aria-hidden="true">7.5.</strong> Political Aspirations</a></li></ol></li><li><a href="../skills.html"><strong aria-hidden="true">8.</strong> Skills</a></li><li><ol class="section"><li><a href="../skills/physical_skills.html"><strong aria-hidden="true">8.1.</strong> Physical Skills</a></li><li><a href="../skills/social_skills.html"><strong aria-hidden="true">8.2.</strong> Social Skills</a></li><li><a href="../skills/technical_skills.html"><strong aria-hidden="true">8.3.</strong> Technical Skills</a></li><li><a href="../skills/specializations.html"><strong aria-hidden="true">8.4.</strong> Specializations</a></li><li><a href="../skills/backgrounds.html"><strong aria-hidden="true">8.5.</strong> Backgrounds</a></li><li><a href="../skills/using_skills.html"><strong aria-hidden="true">8.6.</strong> Using Skills</a></li><li><a href="../skills/using_attributes_without_skills.html"><strong aria-hidden="true">8.7.</strong> Using Attributes Without Skills</a></li></ol></li><li><a href="../getting_what_you_need.html"><strong aria-hidden="true">9.</strong> Getting What You Need</a></li><li><ol class="section"><li><a href="../getting_what_you_need/keeping_things_quiet.html"><strong aria-hidden="true">9.1.</strong> Keeping Things Quiet</a></li><li><a href="../getting_what_you_need/asking_around_montages.html"><strong aria-hidden="true">9.2.</strong> Asking Around: Montages</a></li><li><a href="../getting_what_you_need/interviewing_people.html"><strong aria-hidden="true">9.3.</strong> Interviewing People</a></li><li><a href="../getting_what_you_need/persuasive_argumentation.html"><strong aria-hidden="true">9.4.</strong> Persuasive Argumentation</a></li><li><a href="../getting_what_you_need/arguments_from_rhetoric.html"><strong aria-hidden="true">9.5.</strong> Arguments From Rhetoric</a></li></ol></li><li><a href="../danger.html"><strong aria-hidden="true">10.</strong> Danger</a></li><li><ol class="section"><li><a href="../danger/moving,_evading,_and_escaping.html"><strong aria-hidden="true">10.1.</strong> Moving, Evading, and Escaping</a></li><li><a href="../danger/attacking.html"><strong aria-hidden="true">10.2.</strong> Attacking</a></li><li><a href="../danger/weaponry_and_hazards.html"><strong aria-hidden="true">10.3.</strong> Weaponry and Hazards</a></li><li><a href="../danger/armor.html"><strong aria-hidden="true">10.4.</strong> Armor</a></li><li><a href="../danger/wounds.html"><strong aria-hidden="true">10.5.</strong> Wounds</a></li><li><a href="../danger/healing_and_death.html"><strong aria-hidden="true">10.6.</strong> Healing and Death</a></li><li><a href="../danger/temporary_conditions.html"><strong aria-hidden="true">10.7.</strong> Temporary Conditions</a></li><li><a href="../danger/wind_and_water.html"><strong aria-hidden="true">10.8.</strong> Wind and Water</a></li></ol></li><li><a href="../monsters.html"><strong aria-hidden="true">11.</strong> Monsters</a></li><li><ol class="section"><li><a href="../monsters/lycanthropy.html"><strong aria-hidden="true">11.1.</strong> Lycanthropy</a></li><li><a href="../monsters/vampirism.html"><strong aria-hidden="true">11.2.</strong> Vampirism</a></li><li><a href="../monsters/witchcraft.html"><strong aria-hidden="true">11.3.</strong> Witchcraft</a></li><li><a href="../monsters/animates.html"><strong aria-hidden="true">11.4.</strong> Animates</a></li><li><a href="../monsters/leviathans.html"><strong aria-hidden="true">11.5.</strong> Leviathans</a></li><li><a href="../monsters/transhumans.html"><strong aria-hidden="true">11.6.</strong> Transhumans</a></li><li><a href="../monsters/zombies.html"><strong aria-hidden="true">11.7.</strong> Zombies</a></li><li><a href="../monsters/fey.html"><strong aria-hidden="true">11.8.</strong> Fey</a></li><li><a href="../monsters/giant_animals.html"><strong aria-hidden="true">11.9.</strong> Giant Animals</a></li><li><a href="../monsters/ghosts.html"><strong aria-hidden="true">11.10.</strong> Ghosts</a></li><li><a href="../monsters/demons.html"><strong aria-hidden="true">11.11.</strong> Demons</a></li><li><a href="../monsters/evil_plants.html"><strong aria-hidden="true">11.12.</strong> Evil Plants</a></li><li><a href="../monsters/spawn_monsters.html"><strong aria-hidden="true">11.13.</strong> Spawn Monsters</a></li></ol></li><li><a href="../magic.html"><strong aria-hidden="true">12.</strong> Magic</a></li><li><ol class="section"><li><a href="../magic/universal_disciplines.html"><strong aria-hidden="true">12.1.</strong> Universal Disciplines</a></li><li><a href="../magic/astral_disciplines.html"><strong aria-hidden="true">12.2.</strong> Astral Disciplines</a></li><li><a href="../magic/infernal_discplines.html"><strong aria-hidden="true">12.3.</strong> Infernal Discplines</a></li><li><a href="../magic/orphic_disciplines.html"><strong aria-hidden="true">12.4.</strong> Orphic Disciplines</a></li><li><a href="../magic/devotions.html"><strong aria-hidden="true">12.5.</strong> Devotions</a></li></ol></li><li><a href="../character_options_and_motivation.html"><strong aria-hidden="true">13.</strong> Character Options and Motivation</a></li><li><ol class="section"><li><a href="../character_options_and_motivations/resources_and_obligations.html"><strong aria-hidden="true">13.1.</strong> Resources and Obligations</a></li><li><a href="../character_options_and_motivations/motivations_&_passions.html"><strong aria-hidden="true">13.2.</strong> Motivations &amp; Passions</a></li><li><a href="../character_options_and_motivations/advantages_and_disadvantages.html"><strong aria-hidden="true">13.3.</strong> Advantages and Disadvantages</a></li><li><a href="../character_options_and_motivations/character_advancement.html" class="active"><strong aria-hidden="true">13.4.</strong> Character Advancement</a></li></ol></li><li><a href="../the_world_at_night.html"><strong aria-hidden="true">14.</strong> The World at Night</a></li><li><ol class="section"><li><a href="../the_world_at_night/mexico_city.html"><strong aria-hidden="true">14.1.</strong> Mexico City</a></li><li><a href="../the_world_at_night/houston.html"><strong aria-hidden="true">14.2.</strong> Houston</a></li><li><a href="../the_world_at_night/kuala_lumpur.html"><strong aria-hidden="true">14.3.</strong> Kuala Lumpur</a></li><li><a href="../the_world_at_night/new_york.html"><strong aria-hidden="true">14.4.</strong> New York</a></li><li><a href="../the_world_at_night/paris.html"><strong aria-hidden="true">14.5.</strong> Paris</a></li><li><a href="../the_world_at_night/prague.html"><strong aria-hidden="true">14.6.</strong> Prague</a></li><li><a href="../the_world_at_night/san_francisco.html"><strong aria-hidden="true">14.7.</strong> San Francisco</a></li></ol></li><li><a href="../persona_non_grata.html"><strong aria-hidden="true">15.</strong> Persona non Grata</a></li><li><ol class="section"><li><a href="../persona_non_grata/people.html"><strong aria-hidden="true">15.1.</strong> People</a></li><li><a href="../persona_non_grata/animals.html"><strong aria-hidden="true">15.2.</strong> Animals</a></li><li><a href="../persona_non_grata/places.html"><strong aria-hidden="true">15.3.</strong> Places</a></li><li><a href="../persona_non_grata/things.html"><strong aria-hidden="true">15.4.</strong> Things</a></li><li><a href="../persona_non_grata/standardizing_nonstandard_magic.html"><strong aria-hidden="true">15.5.</strong> Standardizing Nonstandard Magic</a></li><li><a href="../persona_non_grata/i_fought_the_law.html"><strong aria-hidden="true">15.6.</strong> I Fought The Law</a></li></ol></li><li><a href="../points_of_view.html"><strong aria-hidden="true">16.</strong> Points of View</a></li><li><ol class="section"><li><a href="../points_of_view/first_person.html"><strong aria-hidden="true">16.1.</strong> First Person</a></li><li><a href="../points_of_view/second_person.html"><strong aria-hidden="true">16.2.</strong> Second Person</a></li><li><a href="../points_of_view/third_person.html"><strong aria-hidden="true">16.3.</strong> Third Person</a></li><li><a href="../points_of_view/the_fourth_wall.html"><strong aria-hidden="true">16.4.</strong> The Fourth Wall</a></li></ol></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
+                        </div>
+
+                        <h1 class="menu-title">After Sundown 1e</h1> 
+
+                        <div class="right-buttons">
+                            <a href="../print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="#character-advancement" id="character-advancement"><h2>Character Advancement</h2></a>
+<p>Characters in stories tend to become <em>better</em> as the story progresses. This is part of the character's heroic journey, and also serves to keep the audience interested. After all, once the protagonists have bested one problem, it is much easier to keep the listener's interest if the subsequent problems are <em>bigger</em>. Which in turn requires greater abilities on the part of the protagonists to solve. And so on. This can be seen very well in the movies Alien and Aliens. In the first film, the characters were dealing with one unknown monster and spent most of the movie trying to figure out what to do. But in the second movie, there are instead hundreds of the things, and yet the main character has already bested one in battle - the movie focuses on fighting rather than hiding most of the time. And both of those movies are very good. Indeed, Aliens 3 is one of those apocryphal movies like Highlander 2 that probably doesn't even exist. But if it did, its primary flaw would be having rolled back the progress of the second movie and thereby creating a story that the audience didn't give a crap about.</p>
+<p>It is easy for advancement to get out of hand. By the time Spawn beat up the lords of each realm of existence and the creator of the universe, the story really no longer held interest. A power fantasy is only interesting as long as there's still tension. While a fast rate of advancement may feel good, remember that it also advances the timeline towards the point where the game will stop being fun. It's a trade off. Advancement that is too fast or too slow is stultifying.</p>
+<a class="header" href="#acquisitive-advancement" id="acquisitive-advancement"><h3>Acquisitive Advancement</h3></a>
+<p><em>In picking up a santa-sack full of antiques, I feel that I <strong>learned</strong> that I now own a santa-sack full of antiques.</em></p>
+<p>Resources and Status as well as Obligations are gained during the course of normal play. Sometimes these are gained together: if during the course of a story a character boosts a car, they can reasonably expect to have gained a Financial Resource (the car), but may well have gained some Enemies or Stalkers as well by the same act. At other times, a character may end up with a new set of Contacts or a sack of gold totally free and clear.</p>
+<p>Generally speaking, characters should use things they find over the course of a chapter with impunity and discuss with the MC what acquisitions are going to be remembered in the next chapter or chronicle <em>at the end of the session</em>. Things that will persist into future chapters are probably worth writing down, as well as formalizing them into numerical Resource values. So if a character ends up with $100,000 in cash and some jade statues in the trunk of a car during a story it is generally worth referring to in those terms for the rest of the chapter; but when play comes to future chapters, it is better to just write it down as:
+Resource: Finance 2 (Cash)</p>
+<p>Obligations even more so, since the character will often not be aware of newly gained Obligations and that lack of knowledge can cause well appreciated suspense for the player. However, when the game comes to a close, these things should probably be written down (and if you rotate MCs it should <em>definitely</em> be written down).</p>
+<p>Status is frequently gained in the aftermath of a story, making the accounting of it at the end of a session rather natural. However it is also true that a character can be promoted to Bishop right in the middle of the action. And that's fine. However, it is suggested that players not bother to write such career changes down on their character sheet (at least, not in <em>pen</em>) until the end of a session. As the saying goes &quot;There's many a slip 'tween the cup and the lip.&quot; and status gained quickly can also be lost quickly. A return to the status quo is perhaps nearly as likely as the retention of status until enough time has passed to be sure that no one is coming to challenge the appointment.</p>
+<a class="header" href="#transformative-advancement" id="transformative-advancement"><h3>Transformative Advancement</h3></a>
+<p><em>There should be only me!</em></p>
+<p>Transformative Advancement is when a character gains substantial amounts of power and radically changes what they can do - and even what they <em>are</em>. Major life changing breakpoints such as this are very much a staple of the gothic genre. Indeed, every time a Luminary becomes a vampire or lycanthrope, such a transformative juncture has been reached.</p>
+<p>The precise moment when a character <em>becomes</em> supernatural is not always clear. Sure you become a Nosferatu when another Nosferatu kills you with blood draining and passes you a power point. And you become a Bagheera when another Bagheera mauls you with a Terminal Wound and you spend an Edge to survive. But for others it's less cut and dried. A character becomes a Fallen when their connection to humanity has been burnt out by Infernal magic, and that can take <em>time</em>. Androids and Troglodytes often discover their non-human status only gradually, sometimes the uncovering of powers is dragged out over the course of multiple chapters.</p>
+<p>Regardless of the type of supernatural creature that the character is becoming (or discovering that they have always been), the character gains certain things when they stop being a human Luminary and start being a Supernatural Creature:</p>
+<ul>
+<li>A Potency of 1.</li>
+<li>A Power reserve of 10 (13 after Potency Modifier).</li>
+<li>A Master Passion appropriate to the character's transformation story.</li>
+<li>The 6 Basic and 2 Advanced Powers common to their supernatural type.</li>
+<li>1 additional Basic Power.</li>
+<li>1 additional Advanced Power</li>
+</ul>
+<p>Whether these new aspects of the character are discovered gradually over several chapters or gained all at once in a flash of insight and despair, these changes are automatic and have no impact on any other sources of advancement the character may have coming.</p>
+<p>Creatures in After Sundown normally gain Potency and learn Elder Powers only very slowly. Many Elders only have a single Elder Ability for each century or three of their persistence - or even less. The King with Three Shadows has a Potency of 10, indicating that his Potency gain per century averages out to like ¼ or so. In the default After Sundown chronicle we can expect the number of centuries to pass to be some number very close to zero. Getting Elder Powrs and increasing Potency the &quot;honest&quot; way is simply not going to happen. Characters in After Sundown <em>can</em> gain these powers over the course of a story, but only by grabbing a hold of asymmetric power of some sort.</p>
+<p>The destruction of powerful elders gives off a flash of power that empowers those present or leaves dark fluid which will empower those who drink it or some similar rite of power theft that is generally available to several characters at once. Siphoning the power out of an elder is generally frowned upon by supernaturals (even in the Cauchemar Communes) and is called &quot;Titaning&quot; (or by snarkier members of supernatural society that don't care for Chronos references: &quot;Quickening&quot;). Having taken down a Ifrit and gained Potency well before one's time is a fast way to gain respect as well as power - but it also causes many members of supernatural society to regard the characters as dangerous loose cannons no matter what their reason for the battle was.</p>
+<p>Similarly, powerful artifacts can be Titanized under certain circumstances, and various tomes and places of power exist that can imbue a character with Elder Powers that would normally take them decades to master. However, it is important to note that characters are not normally going to be &quot;entitled&quot; to gain Potency or learn Elder Powers over the course of the stories. They come as rewards for completing especially difficult chronicles or defeating particularly powerful antagonists.</p>
+<a class="header" href="#karmic-advancement" id="karmic-advancement"><h3>Karmic Advancement</h3></a>
+<p><em>What goes around will have gone around.</em></p>
+<p>At the conclusion of chapters, characters may advance <em>personally</em> in addition to having advanced their cause over the course of the chapter. Advancement of this sort is difficult to plan ahead of time. No one really knows what lessons they will learn from the future and supernatural creatures don't always get to decide ahead of time what powers they will develop or when they will do so. And so when a chapter ends and the players are ready to do the accounting at the conclusion the MC may deal out cards for players to bid on. They bid with karma tokens. Tokens are gained by the following means:</p>
+<ul>
+<li>Each player may have one or more karma tokens banked from the previous chapter. Any tokens that are not spent are banked automatically.</li>
+<li>Every chapter, each player gains two tokens that they can bid for themselves.</li>
+<li>Every chapter, each player has another token that they can nominate <em>another</em> player to get when they do something awesome. What constitutes something awesome enough to warrant getting a karma token depends upon the style of game being run</li>
+</ul>
+<p>When it comes time for bidding, the MC deals out a number of Tarot cards and one of the players can choose one to begin bidding on by bidding a number of tokens for it. Then it is auctioned off, with each player in turn being offered the opportunity to bid more tokens or pass. When everyone has passed, the player with the highest bid spends that many tokens and adjusts their character sheet as dictated by the card gained. Then the player to the left of the one who got the last card nominates another available card by bidding on it or passes the opportunity to the player to <em>their</em> left. This continues until all cards have been sold, none of the players wish to bid on any remaining cards, or no one has any more tokens (no card can be &quot;sold&quot; for less than 1 token).</p>
+<p>Karma tokens should be physical objects of sufficient mass to be effectively slid across the table from one player to another, without being big enough to be unwieldy or heavy enough to accidentally hurt people. Poker chips and glass beads are good bets.</p>
+<a class="header" href="#minor-arcana" id="minor-arcana"><h4>Minor Arcana</h4></a>
+<table><thead><tr><th align="left"> Card </th><th align="left"> Advancement </th></tr></thead><tbody>
+<tr><td align="left"> Swords 2 </td><td align="left"> A specialization in a Physical Skill </td></tr>
+<tr><td align="left"> Swords 3 </td><td align="left"> A new Physical skill at rating 1 </td></tr>
+<tr><td align="left"> Swords 4 </td><td align="left"> +1 to Perception </td></tr>
+<tr><td align="left"> Swords 5 </td><td align="left"> +1 to Stealth </td></tr>
+<tr><td align="left"> Swords 6 </td><td align="left"> +1 to Athletics </td></tr>
+<tr><td align="left"> Swords 7 </td><td align="left"> +1 to Drive </td></tr>
+<tr><td align="left"> Swords 8 </td><td align="left"> +1 to a Physical skill you used this chapter </td></tr>
+<tr><td align="left"> Swords 9 </td><td align="left"> +1 to a Physical skill of your choice </td></tr>
+<tr><td align="left"> Swords 10 </td><td align="left"> +1 to a Physical skill of your choice </td></tr>
+<tr><td align="left"> Swords P </td><td align="left"> A specialization in any skill </td></tr>
+<tr><td align="left"> Swords N </td><td align="left"> A new skill at Rating 1 </td></tr>
+<tr><td align="left"> Swords Q </td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Swords K </td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Swords A </td><td align="left"> +1 to any skill or a new skill at rating 1 </td></tr>
+<tr><td align="left"> Pentacles 2 </td><td align="left"> A specialization in a Technical Skill </td></tr>
+<tr><td align="left"> Pentacles 3 </td><td align="left"> A new Technical skill at rating 1 </td></tr>
+<tr><td align="left"> Pentacles 4 </td><td align="left"> +1 to Electronics </td></tr>
+<tr><td align="left"> Pentacles 5 </td><td align="left"> +1 to Artisan </td></tr>
+<tr><td align="left"> Pentacles 6 </td><td align="left"> +1 to Rigging </td></tr>
+<tr><td align="left"> Pentacles 7 </td><td align="left"> +1 to Research </td></tr>
+<tr><td align="left"> Pentacles 8 </td><td align="left"> +1 to a Technical skill you used this chapter </td></tr>
+<tr><td align="left"> Pentacles 9 </td><td align="left"> +1 to a Technical skill of your choice </td></tr>
+<tr><td align="left"> Pentacles 10 </td><td align="left"> +1 to a Technical skill of your choice </td></tr>
+<tr><td align="left"> Pentacles P </td><td align="left"> A specialization in any skill </td></tr>
+<tr><td align="left"> Pentacles N </td><td align="left"> A new skill at Rating 1 </td></tr>
+<tr><td align="left"> Pentacles Q </td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Pentacles K </td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Pentacles A </td><td align="left"> +1 to any skill or a new skill at rating 1 </td></tr>
+<tr><td align="left"> Cup 2 </td><td align="left"> A specialization in a Social skill </td></tr>
+<tr><td align="left"> Cup 3 </td><td align="left"> A new Social skill at rating 1 </td></tr>
+<tr><td align="left"> Cup 4 </td><td align="left"> +1 to Bureaucracy </td></tr>
+<tr><td align="left"> Cup 5 </td><td align="left"> +1 to Empathy </td></tr>
+<tr><td align="left"> Cup 6 </td><td align="left"> +1 to Expression </td></tr>
+<tr><td align="left"> Cup 7 </td><td align="left"> +1 to Persuasion </td></tr>
+<tr><td align="left"> Cup 8 </td><td align="left"> +1 to a Social skill you used this chapter </td></tr>
+<tr><td align="left"> Cup 9 </td><td align="left"> +1 to a Social skill of your choice </td></tr>
+<tr><td align="left"> Cup 10 </td><td align="left"> +1 to a Social skill of your choice </td></tr>
+<tr><td align="left"> Cup P </td><td align="left"> A specialization in any skill </td></tr>
+<tr><td align="left"> Cup N </td><td align="left"> A new skill at Rating 1 </td></tr>
+<tr><td align="left"> Cup Q </td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Cup K :</td><td align="left"> +1 to any skill </td></tr>
+<tr><td align="left"> Cup A </td><td align="left"> +1 to any skill or a new skill at rating 1 </td></tr>
+<tr><td align="left"> Wand 2 </td><td align="left"> Two new Backgrounds at rating 1 </td></tr>
+<tr><td align="left"> Wand 3 </td><td align="left"> A new Background at rating 2 </td></tr>
+<tr><td align="left"> Wand 4 </td><td align="left"> +2 to a Background you used this chapter </td></tr>
+<tr><td align="left"> Wand 5 </td><td align="left"> +2 to a Background you used this chapter </td></tr>
+<tr><td align="left"> Wand 6 </td><td align="left"> +1 to a Background you used this chapter and another Background </td></tr>
+<tr><td align="left"> Wand 7 </td><td align="left"> +1 to two Backgrounds of your choice </td></tr>
+<tr><td align="left"> Wand 8 </td><td align="left"> +2 to a Background of your choice </td></tr>
+<tr><td align="left"> Wand 9 </td><td align="left"> +2 to a Background of your choice </td></tr>
+<tr><td align="left"> Wand 10 </td><td align="left"> Gain a Positive Quality </td></tr>
+<tr><td align="left"> Wand P </td><td align="left"> Gain a Positive Quality </td></tr>
+<tr><td align="left"> Wand N </td><td align="left"> Gain a Positive Quality </td></tr>
+<tr><td align="left"> Wand Q </td><td align="left"> Learn a Language </td></tr>
+<tr><td align="left"> Wand K </td><td align="left"> Learn a Language </td></tr>
+<tr><td align="left"> Wand A </td><td align="left"> +1 to any skill or a new skill at rating 1 </td></tr>
+</tbody></table>
+<p>####Major Arcana</p>
+<table><thead><tr><th> Card </th><th> Advancement </th></tr></thead><tbody>
+<tr><td align="left"> The Fool </td><td align="left"> +1 Edge </td></tr>
+<tr><td align="left"> The Magician </td><td align="left"> Learn a Basic or Advanced Sorcery </td></tr>
+<tr><td align="left"> The High Priestess </td><td align="left"> Learn a Basic or Advanced Sorcery you used this chapter </td></tr>
+<tr><td align="left"> The Empress </td><td align="left"> Learn a Basic or Advanced Universal Power that you used this chapter </td></tr>
+<tr><td align="left"> The Emperor </td><td align="left"> +1 Willpower </td></tr>
+<tr><td align="left"> The Hierophant </td><td align="left"> Learn an Advanced Power </td></tr>
+<tr><td align="left"> The Lovers </td><td align="left"> +1 Charisma </td></tr>
+<tr><td align="left"> The Chariot </td><td align="left"> +1 Agility </td></tr>
+<tr><td align="left"> Strength </td><td align="left"> +1 Strength </td></tr>
+<tr><td align="left"> The Hermit </td><td align="left"> +1 Intuition </td></tr>
+<tr><td align="left"> Wheel of Fortune </td><td align="left"> +1 Edge </td></tr>
+<tr><td align="left"> Justice </td><td align="left"> +1 Logic </td></tr>
+<tr><td align="left"> The Hanged Man </td><td align="left"> +1 to a Physical, Mental, or Social Attribute </td></tr>
+<tr><td align="left"> Death </td><td align="left"> Learn a Basic or Advanced Orphic Sorcery </td></tr>
+<tr><td align="left"> Temperance </td><td align="left"> Learn a Basic or Advanced Astral Sorcery </td></tr>
+<tr><td align="left"> The Devil </td><td align="left"> Learn a Basic or Advanced Infernal Sorcery </td></tr>
+<tr><td align="left"> The Tower </td><td align="left"> +1 to a Physical, Mental, or Social Attribute </td></tr>
+<tr><td align="left"> The Star </td><td align="left"> +1 to a Physical, Mental, or Social Attribute </td></tr>
+<tr><td align="left"> The Moon </td><td align="left"> Learn a Basic Power or Advanced Universal Power </td></tr>
+<tr><td align="left"> The Sun </td><td align="left"> Learn a Basic or Advanced Universal Power </td></tr>
+<tr><td align="left"> Judgement </td><td align="left"> +1 Edge </td></tr>
+<tr><td align="left"> The World </td><td align="left"> Learn a Basic or Advanced Power of your choice </td></tr>
+</tbody></table>
+<a class="header" href="#key" id="key"><h4>Key</h4></a>
+<table><thead><tr><th> Card </th><th> Full Name </th></tr></thead><tbody>
+<tr><td align="left"> Swords P </td><td align="left"> Page (or Jack) of Swords </td></tr>
+<tr><td align="left"> Pentacles N </td><td align="left"> Knight of Pentacles </td></tr>
+<tr><td align="left"> Cup K </td><td align="left"> King of Cups </td></tr>
+<tr><td align="left"> Wand A </td><td align="left"> Ace of Wands </td></tr>
+</tbody></table>
+<a class="header" href="#dealing" id="dealing"><h4>Dealing</h4></a>
+<p>There are several different methods for determining advancement deals. Generally speaking, a relatively consistent system should be used throughout a chronicle and a campaign. Remember that a Major Arcana is worth about 4 times what a Minor Arcana card is. Bidding is <em>very</em> different when players are spending the same tokens on a +1 to Research and a +1 Logic in the same auction than when they are evaluating only one or the other.</p>
+<p><strong>Commensurate Achievement:</strong> In this system the MC determines whether they think that a major milestone was passed in the current chapter or not, and accordingly deals out a number of cards that are pre-selected to be either Minor or Major Arcana exclusively. The deck is simply divided and cards from only one type are dealt.</p>
+<p><strong>Minimum Awards:</strong> In this system, the MC determines how many Major Arcana the last chapter was worth (usually 1 or 2) and then deals out cards from the combined deck until that many Major Arcana appear. There may be many Minor Arcana on the table or none at all. And as such, the number of cards to be potentially bid on may be very much higher or lower than the number of players.</p>
+<p><strong>Minimum Coverage:</strong> In this system, the MC determines ahead of time how many <em>cards</em> the chapter was worth (usually 1 or 2 more than the number of players), and deals out that many cards from the combined deck. There may be several Major Arcana showing or none at all.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../character_options_and_motivations/advantages_and_disadvantages.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../the_world_at_night.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a href="../character_options_and_motivations/advantages_and_disadvantages.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a href="../the_world_at_night.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
