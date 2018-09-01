@@ -1,0 +1,19 @@
+## Maya: The Dreamlands
+_"Everybody's got to dream, young girl. If you don't dream, ya go crazy."<br />
+"Go crazy? Don't mind if I do!"_
+
+The Dreamlands are a wild and inhospitable place filled with fetid jungles and monstrous beasts. Overgrown with dreadful, implacable, and nightmarish life in all world correspondences - even those in the far north and south of the planet (though it still gets wicked cold at extreme latitudes). No one really knows if Maya is a construct of subconscious thought or the manifestation of a distant world that exists independently of our own. What is clear is that Maya is _connected_ to the dreams of the frightened and the suffering. The goings on in this world seem somewhat unreal even for those who have traveled to it in the flesh, and the native inhabitants are strange and otherworldly even by the standards set by other supernatural creatures.
+
+The Deep Maya does not even have climactic similarities with its Mortal World correspondences. It boasts floating rocks and sideways waterfalls. And monstrous beasts. And psychic plants. There are few reasons for the sane to want to go to the Deep Maya even though it is wondrous and beautiful in its alien and unforgiving fashion. The weather is pretty similar to that of the Yucatan, with dense cloud cover and hot, driving rain falling almost every day. On those rare times that the night sky is visible, it is clear that the stars above are unfamiliar. The sky boasts no sun or moon, so where precisely the light comes from in the "daytime" is a matter of speculation.
+
+### Getting to Maya
+_"If you die in your dreams, you make me a sandwich."_
+
+Perhaps the easiest way to get to The Dreamlands is to _go to sleep_. While not even a small fraction of dreamers are transported across the barrier, it is nonetheless possible for virtually anyone to make the passage while they are sleeping. A dreamer's physical body remains where it is while the consciousness projects into Maya. If the person dies in the Dreamlands, the body dies as well. If the body dies, the dreamer is lost in Maya indefinitely and becomes a Jalus. There are places where the barrier between Maya and the sleeping mind is weaker. Generally speaking, places with horrible _personal_ murders are more conducive to slipping people across into the nightmare realm. Impersonal deaths, such as natural disasters and battles make the barrier more difficult to cross. Physical gateways, though rare, also exist. They are always circles of something, and one crosses the boundary by entering and then exiting the circle. Circles of mushrooms or trees are fairly common as gateways go, but theoretically it could be a circle of anything. In any case, these gateways only function when the moon is visible. Sorcerous means of entering the Dreamlands are found in Astral Sorceries.
+
+### Things to do in The Dreamlands
+_"We shall build a tower that shall reach to the stars."_
+
+The majority of inhabitants of Maya are neither human nor derived from human stock. Massive monsters stalk the lands and even the plants themselves chitter with an otherworldly malevolence. The Evil Plants in Maya speak to travelers only infrequently. Some can speak telepathically, but they mostly choose not to do so. The Giant Animals generally simply attempt to devour anything they come across. While delicious (if alien) fruit and clearish water are available year round and in great quantity, The Dreamlands have the least expatriate civilization from the Mortal world of all the other worlds.
+
+Not everything in this dimension is from another world however. Sometimes tribes of Jalus congregate together. And for reasons unknown The Marduk Society has been growing an Arcanotower in the Brasil Correspondence for some time. They patrol that area and keep it _mostly_ clear of Giant Animals, but at least some Evil Plants seem to be allowed free reign to enter the transdimensional compound.

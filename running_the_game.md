@@ -1,0 +1,7 @@
+# Running the Game
+
+After Sundown is a collaborative storytelling game, where all the players except one take the roles of the protagonists in an ensemble story set in the realm of horror. The odd player out is the MC, who acts as narrator, director, and actor of last resort for all the other characters in the story. The MC has substantial leeway in interpreting how events unfold and is responsible for much of the writing of the backstory. Nevertheless, the story is still _about_ the player characters, and no one should forget that.
+
+Player characters will have numbers and abilities written on a character sheet that demonstrate what they are capable of, but in most cases the players themselves will determine what their character actually does. When actions are declared, dice are often rolled to determine the results of the action. But when that is not enough (or would be too tedious as is the case for many minor actions), the MC can deterministically assign results.
+
+Actual stories are told cooperatively, with players bringing up events relevant to their character's backstory and possibilities for the MC to consider weaving into the ongoing description of the world and having real solid first person narrative control over the actions and dialog of their player character. The MC is sometimes said to be "running" the game, because they provide the narrative control on the stage where the protagonists act.

@@ -1,0 +1,23 @@
+## Mictlan: The Gloom
+_"Some people believe that when you die there is a wonderful light. As bright as the sun but it doesn't hurt to look into it. All the answers to all the questions you want to know are inside that light. Truth is... there is no light. Only darkness."_
+
+The Gloom has been around forever. Some say that it is space itself and the big bang created the human world as a tiny mote within the Gloom, while others say that the Gloom is the force of entropy to which all things shall return in The End. Whatever the case, The Gloom is supernaturally cold and dark. The ground is bare and everything that lives within The Gloom is hungry all of the time. What plants there are lack essential nutrients and sunlight and cannot grow without blood. All the insects are parasitic.
+
+There are no visible stars in the Deep Gloom. There is no sun in the morning, and no glittering lights in the night. There _may_ be a moon in the sky, but since it is as fixedly black as anything else in the sky it's a matter of debate. Rain never falls and the seas are deathly still. But water and other things rise up out of the ground at unpredictable times through a process called "welling". If you want light in Mictlan, you need to bring it yourself, and even then the illumination cast by a lamp or flashlight is disappointing, as if the air itself were a voracious shadow.
+
+The Gloom is home to what the unenlightened would call ghosts, wendigos, and zombies. All of them endeavor to draw prey in from the human world where they may drain the blood, life, and warmth from it to feed their insatiable hungers. The true horror is that such victims do not rest in peace, but instead rise driven by the need to recover the blood, life and warmth that was taken from them - in an ever growing cycle of futility. 
+
+### Getting to Mictlan
+_"Have you ever been killed before? I'll be back in a minute."_
+
+Portals to The Gloom are called "wells" and each one is filled with darkness. The most effective portals are holes in the ground filled with shadow and water - literal wells. However in some cases a well will appear which is _just_ a hole filled with water _or_ shadow. In addition, pretty much everyone goes to Mictlan just by dying. Upon death, a person becomes a ghost, but in most cases they don't seem to last very long. While some ghosts (especially the ghosts of Luminaries) kick around pretty much indefinitely, this being the realm of horror it seems most likely that ghosts simply unravel and fade into oblivion. The land of the dead is indeed a super depressing place. Sorcerous means of entering The Gloom are found in Orphic magic paths.
+
+While in the Deeper Gloom, all Ghosts are solid, able to be seen and to exert force upon objects. In the Shallow Gloom and to an even greater extent in the mortal world this is not reliably true. So it is that many Ghosts essentially cannot get anything done in the mortal world even if they escape Mictlan through a Well. So while there is no barrier to exit The Gloom as there is for the Dark Reflection, the primary residents mostly do not leave even when they can.
+
+### Things to do in The Gloom
+_"It was their hands that built this city of ours, Father. But where do the hands belong in your scheme?"<br />
+"In their proper place, the depths."_
+
+Soulless bodies sink into Mictlan fairly regularly, whereupon they are animated by the hungry energies of The Gloom and become wandering zombies. The dusty plains of Mictlan are pretty dangerous for travelers because of this. The Gloom has been around for a long time, and walls erected don't seem to fall down often in the cold stillness of the land of eternal night. Over the millennia many people have found time to erect buildings and even cities. Many of these stand vacant, mute testament to the fact that long ago someone cared enough to build them. However, some are still in use. The Shattered Empire has several such cities, usually corresponding to places where no city or even point of interest stands in the Mortal World. Others are less ambitious, where the Ulmi family have a castle in the Gloom Shadow of Venice.
+
+There does not appear to be any specific fixed limit to how long a Ghost can persist in The Gloom. So even though most last only very short amounts of time, it is entirely possible that any particular historical figure still exists somewhere in Mictlan. Some Ghosts, unhappy with the idea of wandering through a frozen desert for all eternity have taken the time to put up buildings and even societies. The largest such Ancestor City is at about the same place as Beijing.

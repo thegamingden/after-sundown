@@ -1,0 +1,33 @@
+# Terrible Places
+_"When you say 'the world' do you mean 'Earth', or 'where we are now'?"_
+
+After Sundown takes place in a world with many similarities to our own. A world which has the same countries and cities as the ones we are familiar with, and which is therefore one which you can research by reading about actual places in history and physical space. But it is also secretly full of magic and evil and beasts and slashers from horror fiction. It also has connections to three coterminous magic worlds full of monsters and danger.
+
+It is in short: a game that takes place in the realm of horror rather than the realm of the real. You're playing a cooperative storytelling game, and the genre is horror. It may be action-horror, horror-mystery, horror-comedy, or even horror-romance, but it is always horror.
+
+## A Life in Horror: The Good and The Bad
+_"Interesting fact: The Final Girl trope emerged shortly after young women became a major component of horror movie attendees."_
+
+Life for the common man in After Sundown is actually pretty horrible, and extremely dangerous. Life in After Sundown is life in a horror movie. Or rather, it is a world not unlike Earth would be if all the horror movies were real in different places and at different times. This means that body counts are extremely high, and it is very difficult to get help. This is good news if you happen to be the Bogie Man, but really bad for anyone looking for a life of vaguely normal properties. Here are some important things to remember:
+
+* **The Police are no help at all.** Heavily infiltrated by cultists and secret societies, the police in After Sundown are astoundingly ineffective. Sure they will _occasionally_ bring down a killer, but the vast majority of crimes go unsolved. Many crimes don't even get investigated, especially if something supernatural is afoot.
+* **Telecommunications are Shoddy.** Sat Phones aren't generally available in the realm of horror. Cellphone coverage cuts out constantly at inopportune moments. Most people still have landlines, but regular telecommunication wires go down frequently and are out for days at a time. The inability to get a call out of a building or town isn't unusual, that kind of thing happens a lot in After Sundown.
+* **People Don't Travel Much.** It's not _weird_ for people to not know what goes on in the next town over in After Sundown. Things are just more dangerous, and people keep to themselves more.
+
+Keep this in mind when you're planning your nights in the realm of horror. Life is less connected to other life in the realm of horror and it is _much_ easier for dangerous elements to thrive in such an environment.
+
+That being said, it is important to remember that most horror movies begin with people thinking things are pretty normal, and _end_ with something of a return to normalcy as well (or do they?) So it's not like Jason is running around the streets murdering people left and right. Indeed, while the death rate from serial and mass murder is large enough in the realm of horror to compete with traffic accidents or opiate abuse, the fact is that you're still more likely to die from cancer. Supernatural creatures remain hidden and the president of the United States is openly a mundane human. A vampire can't just flash their fangs to get free entry to a movie theater, and indeed they could be in a lot of trouble if they flash their fangs in a public space of any kind.
+
+## The Four Worlds
+_"Things are crawling in all over the place these days."_
+
+A very common trope in horror is the inclusion of additional worlds that are full of terror and danger. This is very useful, since of course having an extra world around allows you to fit things into the narrative that would be otherwise very difficult to fit into the Earth. Demon armies, forgotten cities, and strange and deadly plants can be piled to the sky and beyond without otherwise upsetting the world provided that they were never in the world in the first place. Furthermore, the idea that monsters can come in sideways is by itself a wonderfully useful notion for the horror genre, because it severely undermines the concept of safety in a fortress or locked room.
+
+That being said, it is also true that there are a lot of alternate worlds to be had in various stories. Too _many_ alternate worlds to be anything vaguely approaching something workable. And so it is that as a compromise we have cut things down to three alternate realities:
+
+* **Maya: The Dreamlands** Think of a combination of the untamed and deadly dreamworlds of [Jumanji](http://www.imdb.com/title/tt0113497/) or [Where the Wild Things Are](http://www.imdb.com/title/tt0386117/). This is where dreams and wild things go, but since this is the realm of horror the dreams are often as not inspired by Freddy and the beasts are likely to be deadly and destructive monsters.
+* **Limbo: The Dark Reflection** The best rendition of the Dark Reflection is probably in [Silent Hill](http://www.imdb.com/title/tt0384537/). It's a world very much like our own but scoured with demonic powers. Ash falls from the sky like rain and everything looks abandoned or scorched. Demons prowl the Dark Reflection.
+* **Mictlan: The Gloom** The best rendition of the Gloom is of course in [Night Watch](http://www.imdb.com/title/tt0403358/), which even calls the place that. It's a cold and oppressive world where darkness presses insistently upon the light and heat of travelers. Powers of death leak in from every crevice and extinguish fires and the lives of small animals. Blood hungering insects and ghosts scour the Gloom.
+* **The Mortal World** This is the world where most people live. It's just like our world except magic and monsters are real. And it's connected to the three other worlds. It is portrayed in virtually every horror movie because it _is_ the world of every horror movie.
+
+Each of these worlds have two levels. One can go to the first level where interaction with the mortal realm is still possible, and one can go to the deeper level where it is not. In short, like in _Silent Hill_, it is possible to straddle the worlds where you can still open and close the door of your house and see what's on the stove but demons from the Dark Reflection can attack you. It's also possible to be all the way in the Dark Reflection, where things are a terrifying hellscape and nothing makes any sense. While in the Shallows of any of the worlds, the celestial realities of Earth appear to hold sway - the Sun rises and sets while wind and rain appear on schedule. In the Deeps, it becomes apparent that one is quite likely _not on Earth_, as the sky itself betrays one to be on an alien rock.

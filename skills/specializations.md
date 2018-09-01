@@ -1,0 +1,8 @@
+## Specializations
+_This is what I'm good at. And I'm the best. You might ask: 'what good is that'? And the answer is that being the best at anything makes you the best at something._
+
+A specialization is a subset of a skill that a character is especially proficient in. When they make tests using the skill in a manner that is relevant to their interests, they gain 2 extra dice in their dice pool. Technical skills are an inherently specialized field, so in addition to getting 2 extra dice within a character's specialties, Technical Skill dicepools are _penalized_ by 1 die if they are being used outside a relevant specialization.
+
+The sample specializations are by no means comprehensive, and players should work out with their MC to find or create specializations that are right for them. A character might have their Sabotage specialized in Eco-Terrorism covering both spiking trees (that might more frequently go under "traps") _and_ breaking a bulldozer (that might more frequently go under "Disabling Stuff"). Another character might have their Animal Ken specialized in Horses, covering the training, breeding, and calming of wild and domestic horses. 
+
+The MC should take care to make sure that no specialization is universally useful. Specializing a skill in something that would apply in all cases is basically the same as just getting 2 points in the skill, and that's unfair. MCs must be expected to reject specializing Combat in "fighting" or specializing Bureaucracy in "paperwork." A character can have more than one specialization in the same skill, and this is often very important for Technical skills. If more than one Specialization would apply, the character still only gets 2 bonus dice.
