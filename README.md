@@ -1,5 +1,5 @@
 
-# [View It Github Pages](https://thegamingden.github.io/after-sundown/)
+# [View It On Github Pages](https://thegamingden.github.io/after-sundown/)
 
 # After Sundown
 
