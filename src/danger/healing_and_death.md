@@ -65,9 +65,8 @@ This allows time for the character to potentially be moved to a place with a
 better shot at a final test before they die. A result of 3 hits or more causes
 the character to stabilize right away.
 
-Characters with a Terminal Wound will normally die within 5 minutes, and
-possibly an extra 20 minutes to that with one hit on First Aid. This is not
-normally enough time to allow for a Healing Test, but Dying characters are
+Characters with a Terminal Wound will normally die within 5 minutes. This is not
+normally enough time to allow for a Healing Test. However, Dying characters are
 always allowed to make at least one final Healing Test before their Dying timer
 runs out.
 
