@@ -1,4 +1,6 @@
 
+![after-sundown-logo](logo.png)
+
 # [View It On Github Pages](https://thegamingden.github.io/after-sundown/)
 
 # After Sundown
@@ -31,8 +33,7 @@ derivative work.
 * After that, there were at least three people that made a PDF of the game.
 * However, these days people have a lot of different sized screens among their
   PCs, Tablets, Phones, whatever, so a format that allows for easy mobile
-  display is very desirable, and that's why we're using markdown (which github
-  renders as HTML).
+  display is very desirable, and that's why we're here.
 
 This version of the rules contains various small changes compared to the
 original forum post that's still sitting on the gaming den (but never updated).
