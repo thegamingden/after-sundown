@@ -193,34 +193,34 @@ beads are good bets.
 | Pentacles Q | +1 to any skill |
 | Pentacles K | +1 to any skill |
 | Pentacles A | +1 to any skill or a new skill at rating 1 |
-| Cup 2 | A specialization in a Social skill |
-| Cup 3 | A new Social skill at rating 1 |
-| Cup 4 | +1 to Bureaucracy |
-| Cup 5 | +1 to Empathy |
-| Cup 6 | +1 to Expression |
-| Cup 7 | +1 to Persuasion |
-| Cup 8 | +1 to a Social skill you used this chapter |
-| Cup 9 | +1 to a Social skill of your choice |
-| Cup 10 | +1 to a Social skill of your choice |
-| Cup P | A specialization in any skill |
-| Cup N | A new skill at Rating 1 |
-| Cup Q | +1 to any skill |
-| Cup K :| +1 to any skill |
-| Cup A | +1 to any skill or a new skill at rating 1 |
-| Wand 2 | Two new Backgrounds at rating 1 |
-| Wand 3 | A new Background at rating 2 |
-| Wand 4 | +2 to a Background you used this chapter |
-| Wand 5 | +2 to a Background you used this chapter |
-| Wand 6 | +1 to a Background you used this chapter and another Background |
-| Wand 7 | +1 to two Backgrounds of your choice |
-| Wand 8 | +2 to a Background of your choice |
-| Wand 9 | +2 to a Background of your choice |
-| Wand 10 | Gain a Positive Quality |
-| Wand P | Gain a Positive Quality |
-| Wand N | Gain a Positive Quality |
-| Wand Q | Learn a Language |
-| Wand K | Learn a Language |
-| Wand A | +1 to any skill or a new skill at rating 1 |
+| Cups 2 | A specialization in a Social skill |
+| Cups 3 | A new Social skill at rating 1 |
+| Cups 4 | +1 to Bureaucracy |
+| Cups 5 | +1 to Empathy |
+| Cups 6 | +1 to Expression |
+| Cups 7 | +1 to Persuasion |
+| Cups 8 | +1 to a Social skill you used this chapter |
+| Cups 9 | +1 to a Social skill of your choice |
+| Cups 10 | +1 to a Social skill of your choice |
+| Cups P | A specialization in any skill |
+| Cups N | A new skill at Rating 1 |
+| Cups Q | +1 to any skill |
+| Cups K | +1 to any skill |
+| Cups A | +1 to any skill or a new skill at rating 1 |
+| Wands 2 | Two new Backgrounds at rating 1 |
+| Wands 3 | A new Background at rating 2 |
+| Wands 4 | +2 to a Background you used this chapter |
+| Wands 5 | +2 to a Background you used this chapter |
+| Wands 6 | +1 to a Background you used this chapter and another Background |
+| Wands 7 | +1 to two Backgrounds of your choice |
+| Wands 8 | +2 to a Background of your choice |
+| Wands 9 | +2 to a Background of your choice |
+| Wands 10 | Gain a Positive Quality |
+| Wands P | Gain a Positive Quality |
+| Wands N | Gain a Positive Quality |
+| Wands Q | Learn a Language |
+| Wands K | Learn a Language |
+| Wands A | +1 to any skill or a new skill at rating 1 |
 
 #### Major Arcana
 
@@ -248,15 +248,6 @@ beads are good bets.
 | The Sun | Learn a Basic or Advanced Universal Power |
 | Judgement | +1 Edge |
 | The World | Learn a Basic or Advanced Power of your choice |
-
-#### Key
-
-| Card | Full Name |
-|:-----|:----------|
-| Swords P | Page (or Jack) of Swords |
-| Pentacles N | Knight of Pentacles |
-| Cup K | King of Cups |
-| Wand A | Ace of Wands |
 
 #### Dealing
 
