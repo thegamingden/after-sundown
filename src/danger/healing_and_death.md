@@ -73,12 +73,15 @@ runs out.
 A character who is already Dying can also have their death hastened with further
 injury. Once the character's rightmost wound box is filled with a Lethal or
 Aggravated mark, additional wounds accumulate towards a threshold of outright
-killing the target. Incapacitating or Terminal wounds add 2 towards a
-character's Death Threshold, while any other wound adds 1. A character's Death
-Threshold is equal to their Willpower (though Lure of Destruction gives a bonus
-to this as well). Yes, this all means that once someone is already on death's
-door, it takes quite a few extra bullets to push them through it - it's not like
-they are going to go _into_ shock at that point.
+killing the target.
+
+* Incapacitating or Terminal wounds add 2 towards a character's Death Threshold.
+* Any other wound adds 1.
+
+A character's Death Threshold limit is equal to their Willpower, though this can
+be increased by knowing Lure of Destruction magic. Yes, this all means that once
+someone is already on death's door, it takes quite a few extra bullets to push
+them through it - it's not like they are going to go _into_ shock at that point.
 
 ### The Healing Test
 
