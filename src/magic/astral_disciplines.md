@@ -101,11 +101,13 @@ The Trail of Tears is a magical discipline which harvests the power of misery. I
 **Curse of Failure** Using astral sorcery, the character curses a victim to have luck abandon them at a later date. If the character succeeds on an opposed Willpower + Sabotage or Willpower + Rigging check that takes a Simple Action, evil magic hangs like a dark cloud of misery over the target's head. At any later date, the character may reactively end this curse to force the victim to reroll all hits on a test. The Curse of Failure is totally covert, all the character actually does is look at the victim funny and the sorcery has no overt special effects (although it can be detected as normal Astral magic).
 
 **Pain Drops** Tiny drops fall at the target, dampening not their skin but their pride. The character spends a Simple Action to direct Tears of Maya to fall at a target, and makes an Agility + Combat or Willpower + Rigging test to make a standard ranged attack. Pain Drops have a damage rating equal to the character's Willpower, and are soaked with Willpower rather than Strength. Pain Drops cause only illusory damage, and while they cause wound penalties and even incapacitation, they do not actually kill or wrap around into lethal damage. Virtual damage from Pain Drops fades in an hour.
+
 #### Advanced Powers
 
 **Dark Night of the Soul** By spending a Complex Action belittling the target, the character can provoke a Despair Frenzy in them. The character makes an opposed Willpower + Sabotage or Willpower + Intimidate test against the target's Willpower, and if successful the victim enters an immediate Despair Frenzy (regardless of their Master Passion, if any). This ability is largely covert, as it does not appear that the character did anything other than behave in a rude and perhaps senselessly cruel fashion towards the victim.
 
 **Water Prison** With a Complex Action and a power point, water can be manipulated into three dimensional shapes that hold their form and are strong as steel. Actually capturing someone with the titular prison made of water requires a ranged combat test using Agility + Combat or Willpower + Rigging. Grasping water has a Strength equal to the character's Willpower.
+
 #### Elder Powers
 
 **Astral Projection** Activating Astral Projection sends a character and possibly their friends into the deep or shallow Dreamlands or back to the material world. Anything the character carries as well as a circle of hand holding creatures up to the character's Willpower in number (and everything _they_ are carrying as well) shifts across the worlds with the character. Astral Projection requires a Complex Action and a power point. For purposes of dispelling, Astral Projection has 3 hits.
