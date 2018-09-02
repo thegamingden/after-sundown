@@ -138,10 +138,10 @@ describe the Ghost they are looking for.
 
 **Nightcry** The character screams a wail of pain and despair into the deepest
 portions of Mictlan, and draws a Poltergeist to their position. This requires
-four power points and a Complex Action. By making a Willpower + Empathy or Logic
-+ Bureaucracy test against the Poltergeist's Willpower, the character can compel
-it to begin its rain of destruction upon a target of their choice. What else the
-Poltergeist does from being in the material world is totally up to it.
+4pp and a Complex Action. By making a Willpower + Empathy or Logic + Bureaucracy
+test against the Poltergeist's Willpower, the character can compel it to begin
+its rain of destruction upon a target of their choice. What else the Poltergeist
+does from being in the material world is totally up to it.
 
 **Reanimate** The character makes a body into a Shambler or Soulless. A Shambler
 comes into existence under the control of the necromancer, and a Soulless does
