@@ -108,8 +108,8 @@ on someone substantially. This is pretty much a one-time deal and has to be
 performed within the "golden hour" of the injury (an hour from when the patient
 was injured, not an hour from first medical contact). First aid is a Logic +
 Medicine test. 1 hit removes 2 forward slashes, 2 hits removes 2 back slashes, 3
-hits remove 2 dashes, and additional hits remove 1 mark of each type. So, a 5
-hit First Aid test would remove 4 marks of each type.
+hits remove 2 dashes, and any additional hits remove 1 mark of each type. So, a
+5 hit First Aid test would remove 4 marks of each type.
 
 If the victim is currently Dying you must first put a stop to that. This is a
 Threshold 3 test. Any Net Hits will also remove wound 1 wound mark of each type.
