@@ -6,3 +6,6 @@ description = "A tabletop RPG in a world of monsters and horror."
 [build]
 build-dir = "docs"
 create-missing = true
+
+[output.html]
+additional-css = ["custom.css"]
