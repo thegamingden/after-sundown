@@ -78,8 +78,8 @@ resolve those discrepancies somehow.
 **Conditioning** Using extended mind controlling techniques, a victim's will is
 broken and they are transformed into a servant of the character's. Breaking
 someone's mind in this manner is an extended task that has an expected time
-frame of 1 day per point of the victim's Willpower, with a dicepool of Willpower
-+ Intimidation or Logic + Tactics. Conditioning is Hard and has a threshold of
+frame of 1 day per point of the victim's Willpower, with a dicepool of Willpower + 
+Intimidation or Logic + Tactics. Conditioning is Hard and has a threshold of
 3. Conditioning supernatural creatures with higher Potencies than the coditioner
 is even more difficult, and the difference is added to the threshold in that
 case. Once a victim has been thralled, they follow all orders their new master
